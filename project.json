@@ -67,5 +67,47 @@
   ],
   "remote_apis": [],
   "binary_downloads": [],
-  "license": "See RIGHTS.md; no blanket license"
+  "license": "See RIGHTS.md; no blanket license",
+  "repository_role": "versioned_reusable_skills_tools_and_workflows",
+  "skills": [],
+  "mcp_servers": [],
+  "reusable_contents": [
+    {
+      "id": "godot-rules-example",
+      "kind": "rules_example",
+      "entry": "examples/godot-rules/project.godot",
+      "command_id": "rules-check",
+      "status": "validated",
+      "verification": "status/repository-validation.json",
+      "scope": "13 headless checks; scenario-specific map and rule values; not a full game."
+    },
+    {
+      "id": "public-export-validator",
+      "kind": "tool_script",
+      "entry": "tools/validate.py",
+      "command_id": "validate",
+      "status": "validated",
+      "verification": "status/repository-validation.json",
+      "scope": "Explicit allowlist and checks for this public repository; adaptation requires review."
+    },
+    {
+      "id": "build-and-acceptance-notes",
+      "kind": "workflow_documentation",
+      "entry": "docs/build-and-run.md",
+      "status": "documented",
+      "scope": "Existing example commands and complete-project prerequisites; not an automated full-game pipeline."
+    }
+  ],
+  "case_studies": {
+    "primary_location": "project_website",
+    "website": "https://after-hours-18-progress.meoworangecat.chatgpt.site/#diary",
+    "archive_url": null,
+    "archive_status": "awaiting_verified_public_link",
+    "repository_policy": "Link verified cases and retain concise context for reuse; do not duplicate full website diaries."
+  },
+  "skill_release_policy": {
+    "status": "planned_none_delivered",
+    "authoring": "skill-creator",
+    "acceptance": "Actual task validation with documented inputs, outputs, dependencies and permission boundaries before release."
+  }
 }
