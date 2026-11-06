@@ -1,0 +1,17 @@
+.godot/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+.env
+.env.*
+*.pem
+*.key
+*.blend
+*.glb
+*.fbx
+*.wav
+*.mp4
+*.zip
+*.exe
+*.pck

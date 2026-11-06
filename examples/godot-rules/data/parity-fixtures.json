@@ -1,0 +1,887 @@
+{
+  "scope": "Simulation-only reference vectors; fixture initial states are explicit, not evidence of a real playthrough. No obstacles/navigation passed for these fixtures; route tests remain separate.",
+  "comparison": "Numbers within 1e-6 for these short vectors, enum/boolean/integer/string fields exact; terminal phase and tick ordering must match.",
+  "fixtures": [
+    {
+      "id": "normalized_diagonal_move",
+      "initial": {
+        "phase": "playing",
+        "time": 0,
+        "x": 5,
+        "y": 5,
+        "hp": 4,
+        "evidence": false,
+        "checkpoint": false,
+        "submitted": false,
+        "bossHP": 3,
+        "bossTimer": 0,
+        "bossMode": "idle",
+        "target": null,
+        "projectiles": [],
+        "nextId": 0,
+        "invulnerable": 0,
+        "guard": 0,
+        "guardCooldown": 0,
+        "stamps": [
+          {
+            "x": 12.8,
+            "y": 5.2,
+            "phase": "safe"
+          },
+          {
+            "x": 15.2,
+            "y": 4.8,
+            "phase": "safe"
+          }
+        ],
+        "message": "沿桥前进，前往档案台取证。",
+        "cleared": false,
+        "reward": false,
+        "reflections": 0,
+        "hits": 0
+      },
+      "steps": [
+        {
+          "input": {
+            "x": 1,
+            "y": 1
+          },
+          "dt": 0.016666666666666666,
+          "repeat": 30
+        }
+      ],
+      "expected": {
+        "phase": "playing",
+        "time": 0.49999999999999994,
+        "x": 6.484924240491736,
+        "y": 6.484924240491736,
+        "hp": 4,
+        "evidence": false,
+        "checkpoint": false,
+        "submitted": false,
+        "bossHP": 3,
+        "bossTimer": 0,
+        "bossMode": "idle",
+        "target": null,
+        "projectiles": [],
+        "nextId": 0,
+        "invulnerable": 0,
+        "guard": 0,
+        "guardCooldown": 0,
+        "stamps": [
+          {
+            "x": 12.8,
+            "y": 5.2,
+            "phase": "safe",
+            "progress": 0.49999999999999994
+          },
+          {
+            "x": 15.2,
+            "y": 4.8,
+            "phase": "warning",
+            "progress": 2.3
+          }
+        ],
+        "message": "沿桥前进，前往档案台取证。",
+        "cleared": false,
+        "reward": false,
+        "reflections": 0,
+        "hits": 0
+      }
+    },
+    {
+      "id": "guard_start_expire_recover",
+      "initial": {
+        "phase": "playing",
+        "time": 0,
+        "x": 5,
+        "y": 5,
+        "hp": 4,
+        "evidence": false,
+        "checkpoint": false,
+        "submitted": false,
+        "bossHP": 3,
+        "bossTimer": 0,
+        "bossMode": "idle",
+        "target": null,
+        "projectiles": [],
+        "nextId": 0,
+        "invulnerable": 0,
+        "guard": 0,
+        "guardCooldown": 0,
+        "stamps": [
+          {
+            "x": 12.8,
+            "y": 5.2,
+            "phase": "safe"
+          },
+          {
+            "x": 15.2,
+            "y": 4.8,
+            "phase": "safe"
+          }
+        ],
+        "message": "沿桥前进，前往档案台取证。",
+        "cleared": false,
+        "reward": false,
+        "reflections": 0,
+        "hits": 0
+      },
+      "steps": [
+        {
+          "input": {
+            "guard": true
+          },
+          "dt": 0.016666666666666666
+        },
+        {
+          "input": {},
+          "dt": 0.016666666666666666,
+          "repeat": 70
+        }
+      ],
+      "expected": {
+        "phase": "playing",
+        "time": 1.183333333333334,
+        "x": 5,
+        "y": 5,
+        "hp": 4,
+        "evidence": false,
+        "checkpoint": false,
+        "submitted": false,
+        "bossHP": 3,
+        "bossTimer": 0,
+        "bossMode": "idle",
+        "target": null,
+        "projectiles": [],
+        "nextId": 0,
+        "invulnerable": 0,
+        "guard": 0,
+        "guardCooldown": 0,
+        "stamps": [
+          {
+            "x": 12.8,
+            "y": 5.2,
+            "phase": "safe",
+            "progress": 1.183333333333334
+          },
+          {
+            "x": 15.2,
+            "y": 4.8,
+            "phase": "warning",
+            "progress": 2.9833333333333343
+          }
+        ],
+        "message": "沿桥前进，前往档案台取证。",
+        "cleared": false,
+        "reward": false,
+        "reflections": 0,
+        "hits": 0
+      }
+    },
+    {
+      "id": "pause_freezes_everything",
+      "initial": {
+        "phase": "paused",
+        "time": 0,
+        "x": 5,
+        "y": 5,
+        "hp": 4,
+        "evidence": false,
+        "checkpoint": false,
+        "submitted": false,
+        "bossHP": 3,
+        "bossTimer": 0,
+        "bossMode": "idle",
+        "target": null,
+        "projectiles": [],
+        "nextId": 0,
+        "invulnerable": 0,
+        "guard": 0,
+        "guardCooldown": 0,
+        "stamps": [
+          {
+            "x": 12.8,
+            "y": 5.2,
+            "phase": "safe"
+          },
+          {
+            "x": 15.2,
+            "y": 4.8,
+            "phase": "safe"
+          }
+        ],
+        "message": "沿桥前进，前往档案台取证。",
+        "cleared": false,
+        "reward": false,
+        "reflections": 0,
+        "hits": 0
+      },
+      "steps": [
+        {
+          "input": {
+            "x": 1,
+            "guard": true,
+            "interact": true
+          },
+          "dt": 0.05,
+          "repeat": 30
+        }
+      ],
+      "expected": {
+        "phase": "paused",
+        "time": 0,
+        "x": 5,
+        "y": 5,
+        "hp": 4,
+        "evidence": false,
+        "checkpoint": false,
+        "submitted": false,
+        "bossHP": 3,
+        "bossTimer": 0,
+        "bossMode": "idle",
+        "target": null,
+        "projectiles": [],
+        "nextId": 0,
+        "invulnerable": 0,
+        "guard": 0,
+        "guardCooldown": 0,
+        "stamps": [
+          {
+            "x": 12.8,
+            "y": 5.2,
+            "phase": "safe"
+          },
+          {
+            "x": 15.2,
+            "y": 4.8,
+            "phase": "safe"
+          }
+        ],
+        "message": "沿桥前进，前往档案台取证。",
+        "cleared": false,
+        "reward": false,
+        "reflections": 0,
+        "hits": 0
+      }
+    },
+    {
+      "id": "evidence_activates_checkpoint",
+      "initial": {
+        "phase": "playing",
+        "time": 0,
+        "x": 28.1,
+        "y": 5.8,
+        "hp": 4,
+        "evidence": false,
+        "checkpoint": false,
+        "submitted": false,
+        "bossHP": 3,
+        "bossTimer": 0,
+        "bossMode": "idle",
+        "target": null,
+        "projectiles": [],
+        "nextId": 0,
+        "invulnerable": 0,
+        "guard": 0,
+        "guardCooldown": 0,
+        "stamps": [
+          {
+            "x": 12.8,
+            "y": 5.2,
+            "phase": "safe"
+          },
+          {
+            "x": 15.2,
+            "y": 4.8,
+            "phase": "safe"
+          }
+        ],
+        "message": "沿桥前进，前往档案台取证。",
+        "cleared": false,
+        "reward": false,
+        "reflections": 0,
+        "hits": 0
+      },
+      "steps": [
+        {
+          "input": {
+            "interact": true
+          },
+          "dt": 0.016666666666666666
+        }
+      ],
+      "expected": {
+        "phase": "playing",
+        "time": 0.016666666666666666,
+        "x": 28.1,
+        "y": 5.8,
+        "hp": 4,
+        "evidence": true,
+        "checkpoint": true,
+        "submitted": false,
+        "bossHP": 3,
+        "bossTimer": 0,
+        "bossMode": "idle",
+        "target": null,
+        "projectiles": [],
+        "nextId": 0,
+        "invulnerable": 0,
+        "guard": 0,
+        "guardCooldown": 0,
+        "stamps": [
+          {
+            "x": 12.8,
+            "y": 5.2,
+            "phase": "safe",
+            "progress": 0.016666666666666666
+          },
+          {
+            "x": 15.2,
+            "y": 4.8,
+            "phase": "safe",
+            "progress": 1.8166666666666667
+          }
+        ],
+        "message": "责任单已取得，检查点已激活。沿坡道前往审判台。",
+        "cleared": false,
+        "reward": false,
+        "reflections": 0,
+        "hits": 0
+      }
+    },
+    {
+      "id": "stamp_death_blocks_interaction",
+      "initial": {
+        "phase": "playing",
+        "time": 3.1,
+        "x": 12.8,
+        "y": 5.2,
+        "hp": 1,
+        "evidence": false,
+        "checkpoint": false,
+        "submitted": false,
+        "bossHP": 3,
+        "bossTimer": 0,
+        "bossMode": "idle",
+        "target": null,
+        "projectiles": [],
+        "nextId": 0,
+        "invulnerable": 0,
+        "guard": 0,
+        "guardCooldown": 0,
+        "stamps": [
+          {
+            "x": 12.8,
+            "y": 5.2,
+            "phase": "safe"
+          },
+          {
+            "x": 15.2,
+            "y": 4.8,
+            "phase": "safe"
+          }
+        ],
+        "message": "沿桥前进，前往档案台取证。",
+        "cleared": false,
+        "reward": false,
+        "reflections": 0,
+        "hits": 0
+      },
+      "steps": [
+        {
+          "input": {
+            "interact": true
+          },
+          "dt": 0.016666666666666666
+        }
+      ],
+      "expected": {
+        "phase": "lost",
+        "time": 3.1166666666666667,
+        "x": 12.8,
+        "y": 5.2,
+        "hp": 0,
+        "evidence": false,
+        "checkpoint": false,
+        "submitted": false,
+        "bossHP": 3,
+        "bossTimer": 0,
+        "bossMode": "idle",
+        "target": null,
+        "projectiles": [],
+        "nextId": 0,
+        "invulnerable": 1.3,
+        "guard": 0,
+        "guardCooldown": 0,
+        "stamps": [
+          {
+            "x": 12.8,
+            "y": 5.2,
+            "phase": "impact",
+            "progress": 3.1166666666666667
+          },
+          {
+            "x": 15.2,
+            "y": 4.8,
+            "phase": "safe",
+            "progress": 0.916666666666667
+          }
+        ],
+        "message": "加班失败。可从最近安全点重试。",
+        "cleared": false,
+        "reward": false,
+        "reflections": 0,
+        "hits": 1
+      }
+    },
+    {
+      "id": "reflect_exactly_once",
+      "initial": {
+        "phase": "playing",
+        "time": 0,
+        "x": 5,
+        "y": 5,
+        "hp": 4,
+        "evidence": false,
+        "checkpoint": false,
+        "submitted": false,
+        "bossHP": 3,
+        "bossTimer": 0,
+        "bossMode": "idle",
+        "target": null,
+        "projectiles": [
+          {
+            "id": 1,
+            "x": 5,
+            "y": 5,
+            "vx": 0,
+            "vy": 0,
+            "life": 2,
+            "reflected": false
+          }
+        ],
+        "nextId": 0,
+        "invulnerable": 0,
+        "guard": 0,
+        "guardCooldown": 0,
+        "stamps": [
+          {
+            "x": 12.8,
+            "y": 5.2,
+            "phase": "safe"
+          },
+          {
+            "x": 15.2,
+            "y": 4.8,
+            "phase": "safe"
+          }
+        ],
+        "message": "沿桥前进，前往档案台取证。",
+        "cleared": false,
+        "reward": false,
+        "reflections": 0,
+        "hits": 0
+      },
+      "steps": [
+        {
+          "input": {
+            "guard": true
+          },
+          "dt": 0.01,
+          "repeat": 2
+        }
+      ],
+      "expected": {
+        "phase": "playing",
+        "time": 0.02,
+        "x": 5,
+        "y": 5,
+        "hp": 4,
+        "evidence": false,
+        "checkpoint": false,
+        "submitted": false,
+        "bossHP": 3,
+        "bossTimer": 5,
+        "bossMode": "open",
+        "target": null,
+        "projectiles": [
+          {
+            "id": 1,
+            "x": 5.073702480283817,
+            "y": 5.051652148067757,
+            "vx": 7.370248028381734,
+            "vy": 5.165214806775724,
+            "life": 1.98,
+            "reflected": true
+          }
+        ],
+        "nextId": 0,
+        "invulnerable": 0,
+        "guard": 0.64,
+        "guardCooldown": 1.14,
+        "stamps": [
+          {
+            "x": 12.8,
+            "y": 5.2,
+            "phase": "safe",
+            "progress": 0.02
+          },
+          {
+            "x": 15.2,
+            "y": 4.8,
+            "phase": "safe",
+            "progress": 1.82
+          }
+        ],
+        "message": "反弹！过载窗口延长。",
+        "cleared": false,
+        "reward": false,
+        "reflections": 1,
+        "hits": 0
+      }
+    },
+    {
+      "id": "reflected_boss_hit_once",
+      "initial": {
+        "phase": "playing",
+        "time": 0,
+        "x": 5,
+        "y": 5,
+        "hp": 4,
+        "evidence": true,
+        "checkpoint": false,
+        "submitted": true,
+        "bossHP": 3,
+        "bossTimer": 4,
+        "bossMode": "open",
+        "target": null,
+        "projectiles": [
+          {
+            "id": 1,
+            "x": 29.4,
+            "y": 22.1,
+            "vx": 0,
+            "vy": 0,
+            "life": 2,
+            "reflected": true
+          }
+        ],
+        "nextId": 0,
+        "invulnerable": 0,
+        "guard": 0,
+        "guardCooldown": 0,
+        "stamps": [
+          {
+            "x": 12.8,
+            "y": 5.2,
+            "phase": "safe"
+          },
+          {
+            "x": 15.2,
+            "y": 4.8,
+            "phase": "safe"
+          }
+        ],
+        "message": "沿桥前进，前往档案台取证。",
+        "cleared": false,
+        "reward": false,
+        "reflections": 0,
+        "hits": 0
+      },
+      "steps": [
+        {
+          "input": {},
+          "dt": 0.01,
+          "repeat": 2
+        }
+      ],
+      "expected": {
+        "phase": "playing",
+        "time": 0.02,
+        "x": 5,
+        "y": 5,
+        "hp": 4,
+        "evidence": true,
+        "checkpoint": false,
+        "submitted": true,
+        "bossHP": 2,
+        "bossTimer": 4.99,
+        "bossMode": "open",
+        "target": null,
+        "projectiles": [],
+        "nextId": 0,
+        "invulnerable": 0,
+        "guard": 0,
+        "guardCooldown": 0,
+        "stamps": [
+          {
+            "x": 12.8,
+            "y": 5.2,
+            "phase": "safe",
+            "progress": 0.02
+          },
+          {
+            "x": 15.2,
+            "y": 4.8,
+            "phase": "safe",
+            "progress": 1.82
+          }
+        ],
+        "message": "反弹命中！甩锅机受到伤害。",
+        "cleared": false,
+        "reward": false,
+        "reflections": 0,
+        "hits": 0
+      }
+    },
+    {
+      "id": "overload_repeat_no_double_damage",
+      "initial": {
+        "phase": "playing",
+        "time": 0,
+        "x": 25,
+        "y": 20.5,
+        "hp": 4,
+        "evidence": true,
+        "checkpoint": false,
+        "submitted": true,
+        "bossHP": 3,
+        "bossTimer": 4,
+        "bossMode": "open",
+        "target": null,
+        "projectiles": [],
+        "nextId": 0,
+        "invulnerable": 0,
+        "guard": 0,
+        "guardCooldown": 0,
+        "stamps": [
+          {
+            "x": 12.8,
+            "y": 5.2,
+            "phase": "safe"
+          },
+          {
+            "x": 15.2,
+            "y": 4.8,
+            "phase": "safe"
+          }
+        ],
+        "message": "沿桥前进，前往档案台取证。",
+        "cleared": false,
+        "reward": false,
+        "reflections": 0,
+        "hits": 0
+      },
+      "steps": [
+        {
+          "input": {
+            "interact": true
+          },
+          "dt": 0.01,
+          "repeat": 20
+        }
+      ],
+      "expected": {
+        "phase": "playing",
+        "time": 0.20000000000000004,
+        "x": 25,
+        "y": 20.5,
+        "hp": 4,
+        "evidence": true,
+        "checkpoint": false,
+        "submitted": true,
+        "bossHP": 2,
+        "bossTimer": 1.1999999999999997,
+        "bossMode": "rest",
+        "target": null,
+        "projectiles": [],
+        "nextId": 0,
+        "invulnerable": 0,
+        "guard": 0,
+        "guardCooldown": 0,
+        "stamps": [
+          {
+            "x": 12.8,
+            "y": 5.2,
+            "phase": "safe",
+            "progress": 0.20000000000000004
+          },
+          {
+            "x": 15.2,
+            "y": 4.8,
+            "phase": "warning",
+            "progress": 2
+          }
+        ],
+        "message": "过载成功！",
+        "cleared": false,
+        "reward": false,
+        "reflections": 0,
+        "hits": 0
+      }
+    },
+    {
+      "id": "checkpoint_retry",
+      "initial": {
+        "phase": "playing",
+        "time": 0,
+        "x": 28.5,
+        "y": 8.5,
+        "hp": 4,
+        "evidence": true,
+        "checkpoint": true,
+        "submitted": false,
+        "bossHP": 3,
+        "bossTimer": 0,
+        "bossMode": "idle",
+        "target": null,
+        "projectiles": [],
+        "nextId": 0,
+        "invulnerable": 0,
+        "guard": 0,
+        "guardCooldown": 0,
+        "stamps": [
+          {
+            "x": 12.8,
+            "y": 5.2,
+            "phase": "safe"
+          },
+          {
+            "x": 15.2,
+            "y": 4.8,
+            "phase": "safe"
+          }
+        ],
+        "message": "已在安全点恢复，沿坡道前往审判台提交。",
+        "cleared": false,
+        "reward": false,
+        "reflections": 0,
+        "hits": 0
+      },
+      "steps": [],
+      "expected": {
+        "phase": "playing",
+        "time": 0,
+        "x": 28.5,
+        "y": 8.5,
+        "hp": 4,
+        "evidence": true,
+        "checkpoint": true,
+        "submitted": false,
+        "bossHP": 3,
+        "bossTimer": 0,
+        "bossMode": "idle",
+        "target": null,
+        "projectiles": [],
+        "nextId": 0,
+        "invulnerable": 0,
+        "guard": 0,
+        "guardCooldown": 0,
+        "stamps": [
+          {
+            "x": 12.8,
+            "y": 5.2,
+            "phase": "safe"
+          },
+          {
+            "x": 15.2,
+            "y": 4.8,
+            "phase": "safe"
+          }
+        ],
+        "message": "已在安全点恢复，沿坡道前往审判台提交。",
+        "cleared": false,
+        "reward": false,
+        "reflections": 0,
+        "hits": 0
+      }
+    },
+    {
+      "id": "exit_and_terminal_freeze",
+      "initial": {
+        "phase": "playing",
+        "time": 0,
+        "x": 6.5,
+        "y": 22.9,
+        "hp": 4,
+        "evidence": true,
+        "checkpoint": false,
+        "submitted": true,
+        "bossHP": 0,
+        "bossTimer": 0,
+        "bossMode": "done",
+        "target": null,
+        "projectiles": [],
+        "nextId": 0,
+        "invulnerable": 0,
+        "guard": 0,
+        "guardCooldown": 0,
+        "stamps": [
+          {
+            "x": 12.8,
+            "y": 5.2,
+            "phase": "safe"
+          },
+          {
+            "x": 15.2,
+            "y": 4.8,
+            "phase": "safe"
+          }
+        ],
+        "message": "沿桥前进，前往档案台取证。",
+        "cleared": true,
+        "reward": false,
+        "reflections": 0,
+        "hits": 0
+      },
+      "steps": [
+        {
+          "input": {
+            "interact": true
+          },
+          "dt": 0.016666666666666666,
+          "repeat": 5
+        }
+      ],
+      "expected": {
+        "phase": "won",
+        "time": 0.016666666666666666,
+        "x": 6.5,
+        "y": 22.9,
+        "hp": 4,
+        "evidence": true,
+        "checkpoint": false,
+        "submitted": true,
+        "bossHP": 0,
+        "bossTimer": 0,
+        "bossMode": "done",
+        "target": null,
+        "projectiles": [],
+        "nextId": 0,
+        "invulnerable": 0,
+        "guard": 0,
+        "guardCooldown": 0,
+        "stamps": [
+          {
+            "x": 12.8,
+            "y": 5.2,
+            "phase": "safe",
+            "progress": 0.016666666666666666
+          },
+          {
+            "x": 15.2,
+            "y": 4.8,
+            "phase": "safe",
+            "progress": 1.8166666666666667
+          }
+        ],
+        "message": "本关通关！实际打印奖励尚未开放。",
+        "cleared": true,
+        "reward": true,
+        "reflections": 0,
+        "hits": 0
+      }
+    }
+  ]
+}

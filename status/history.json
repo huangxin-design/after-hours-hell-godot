@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "date": "2026-11-06",
+      "version": "character-showcase-3d-20261106-v001",
+      "devlog": "devlog/2026-11-06.md",
+      "summary": "Public documentation and rules example; Windows 3D selection for Guozai/Xiaomo; Yige unavailable."
+    }
+  ]
+}

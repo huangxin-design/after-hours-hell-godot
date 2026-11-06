@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "id": "after-hours-hell-godot",
+  "name": "地狱也得下班",
+  "english_description_name": "After Hours in Hell",
+  "repository": "https://github.com/huangxin-design/after-hours-hell-godot",
+  "website": "https://after-hours-18-progress.meoworangecat.chatgpt.site/#diary",
+  "languages": [
+    "zh-CN",
+    "en"
+  ],
+  "keywords": [
+    "3D game development",
+    "3D 游戏开发",
+    "Godot",
+    "Blender",
+    "Aholo/Lux3D",
+    "character animation",
+    "rigging",
+    "game UI",
+    "AI-assisted game development"
+  ],
+  "index": {
+    "readme": "README.md",
+    "agent_instructions": "AGENTS.md",
+    "status": "status/current.json",
+    "history": "status/history.json",
+    "provenance": "assets/provenance.json",
+    "architecture": "docs/architecture.md",
+    "build": "docs/build-and-run.md",
+    "ai": "docs/for-ai.md",
+    "updates": "docs/updating.md",
+    "rights": "RIGHTS.md",
+    "example": "examples/godot-rules/project.godot",
+    "example_sources": "examples/godot-rules/source-manifest.json",
+    "validation": "status/repository-validation.json"
+  },
+  "local_commands": [
+    {
+      "id": "validate",
+      "argv": [
+        "python",
+        "tools/validate.py"
+      ],
+      "requires": [
+        "Python >=3.10"
+      ],
+      "cwd": ".",
+      "network": false
+    },
+    {
+      "id": "rules-check",
+      "argv": [
+        "godot",
+        "--headless",
+        "--path",
+        "examples/godot-rules",
+        "--script",
+        "res://tests/parity.gd"
+      ],
+      "requires": [
+        "Godot 4.7.2 standard (tested version)"
+      ],
+      "cwd": ".",
+      "network": false
+    }
+  ],
+  "remote_apis": [],
+  "binary_downloads": [],
+  "license": "See RIGHTS.md; no blanket license"
+}

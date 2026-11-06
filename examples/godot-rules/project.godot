@@ -1,0 +1,10 @@
+; Headless rules snapshot: no visual assets or main scene.
+config_version=5
+
+[application]
+config/name="After Hours in Hell - Rules Example"
+config/use_custom_user_dir=true
+config/custom_user_dir_name="AfterHoursPublicRulesExample"
+
+[rendering]
+renderer/rendering_method="gl_compatibility"

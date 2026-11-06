@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "checked_on": "2026-11-06",
+  "scope": "Public repository and isolated headless rules example; no new full-game or foreground test.",
+  "godot": {
+    "version": "4.7.2.stable.official.ed1daf0bf",
+    "exit_code": 0,
+    "cases": 13,
+    "errors": [],
+    "stderr_empty": true
+  },
+  "publication_guards": {
+    "cases": 9,
+    "passed": 9
+  },
+  "review": {
+    "file_allowlist": true,
+    "sensitive_pattern_scan": true,
+    "manual_content_review": true,
+    "model_audio_video_binaries_included": false
+  },
+  "limits": [
+    "Pattern scanning cannot prove absence of every secret.",
+    "Recorded production checks in current.json were reviewed, not rerun here.",
+    "No public full-game source or build is included."
+  ]
+}

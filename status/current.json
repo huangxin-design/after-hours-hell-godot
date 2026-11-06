@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-11-06",
+  "runtime_version": "character-showcase-3d-20261106-v001",
+  "evidence_basis": "Reviewed version-pinned production delivery records. Full private records are not distributed.",
+  "game_type": "native_offline_prototype",
+  "engine": "Godot",
+  "engine_version": "4.7.2",
+  "display_target": {
+    "width": 3840,
+    "height": 2160,
+    "aspect_ratio": "16:9",
+    "input": "keyboard_first"
+  },
+  "platforms": {
+    "windows": {
+      "export": "completed",
+      "selection_3d": "integrated",
+      "native_4k_selection_pixels": "captured",
+      "physical_keyboard": "not_verified",
+      "audible_audio": "not_verified",
+      "performance_4k60": "not_verified",
+      "long_session": "not_verified"
+    },
+    "macos": {
+      "export": "earlier_candidate_completed",
+      "static_checks_on_windows": "passed",
+      "latest_windows_selection_patch": "not_integrated",
+      "native_device": "not_verified"
+    }
+  },
+  "characters": [
+    {
+      "id": "guozai",
+      "name": "锅仔",
+      "available_in_documented_windows_build": true,
+      "skill": "projectile_reflection",
+      "new_held_pan_action_candidate": "native_acceptance_pending"
+    },
+    {
+      "id": "xiaomo",
+      "name": "小默",
+      "available_in_documented_windows_build": true,
+      "skill": "decoy",
+      "new_action_candidate": "native_acceptance_pending"
+    },
+    {
+      "id": "yige",
+      "name": "椅哥",
+      "available_in_documented_windows_build": false,
+      "skill_plan": "recline_dodge_then_speed_boost",
+      "asset": "under_revision"
+    }
+  ],
+  "recorded_checks": {
+    "selection-final": {
+      "passed": true,
+      "count": 18
+    },
+    "font-contract": {
+      "passed": true,
+      "count": 11
+    },
+    "flow-guozai": {
+      "passed": true,
+      "count": 112
+    },
+    "flow-xiaomo": {
+      "passed": true,
+      "count": 35
+    },
+    "packed-character_selection": {
+      "passed": true,
+      "count": 18
+    },
+    "packed-desktop_contract": {
+      "passed": true,
+      "count": 11
+    }
+  },
+  "recorded_ui_checks": {
+    "passed": 45,
+    "failed": 0
+  },
+  "native_capture_scope": "Final Windows PCK, 3840x2160 Vulkan character selection; no physical input, listening or frame-rate acceptance.",
+  "package_sha256": {
+    "AfterHours.exe": "d34d36f3be1a6c49c56525ae86469b92e4f417ddf0b43cf00dd80c385c4b0562",
+    "AfterHours.pck": "12de30150dbe3c0492c72eadd843adaf970af4676ec77bfcda181ff1257111a9"
+  },
+  "intro_in_documented_runtime": "not_integrated",
+  "printable_rewards": "planned_not_validated",
+  "reward_service": "not_implemented",
+  "competition": {
+    "registration": "completed",
+    "team": "completed",
+    "idea": "completed",
+    "final_delivery": "not_completed",
+    "final_submission": "not_completed"
+  },
+  "public_distribution": {
+    "full_game_source": false,
+    "playable_build": false,
+    "models": false,
+    "audio": false,
+    "headless_rules_example": true
+  }
+}

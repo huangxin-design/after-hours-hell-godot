@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-11-06",
+  "policy": "Source records do not grant redistribution rights. Binary assets are excluded.",
+  "assets": [
+    {
+      "id": "guozai",
+      "kind": "character_and_pan",
+      "source": [
+        "Aholo/Lux3D generated base meshes",
+        "Blender refinement and character animation"
+      ],
+      "runtime": "earlier_body_actions_integrated_new_held_pan_candidate_pending",
+      "files_in_repository": [],
+      "redistribution": "not_granted_here"
+    },
+    {
+      "id": "xiaomo",
+      "kind": "character",
+      "source": [
+        "Aholo/Lux3D generated base mesh, retopology and rigging",
+        "Blender refinement and animation"
+      ],
+      "runtime": "earlier_character_integrated_new_candidate_pending",
+      "files_in_repository": [],
+      "redistribution": "not_granted_here"
+    },
+    {
+      "id": "yige",
+      "kind": "character_and_chair",
+      "source": [
+        "Aholo/Lux3D base meshes",
+        "Blender geometry and animation revisions"
+      ],
+      "runtime": "disabled",
+      "files_in_repository": [],
+      "redistribution": "not_granted_here"
+    },
+    {
+      "id": "environment",
+      "kind": "terrain_and_props",
+      "source": [
+        "Aholo/Lux3D terrain, bridges, railings, stamp, cauldron, gate and console",
+        "Blender scene assembly and refinement"
+      ],
+      "runtime": "earlier_assets_integrated_new_candidates_pending",
+      "files_in_repository": [],
+      "redistribution": "not_granted_here"
+    },
+    {
+      "id": "audio",
+      "kind": "music_and_effects",
+      "source": [
+        "Project-original deterministic synthesis and original note sequences; no external game recordings, samples, melodies or voices"
+      ],
+      "runtime": "assets_integrated_listening_pending",
+      "files_in_repository": [],
+      "redistribution": "not_granted_here"
+    },
+    {
+      "id": "ui_font",
+      "kind": "font",
+      "source": [
+        "Noto Sans SC"
+      ],
+      "runtime": "bundled_in_private_game_package",
+      "upstream_license": "SIL Open Font License 1.1",
+      "files_in_repository": [],
+      "redistribution": "not_distributed_in_this_repository"
+    }
+  ]
+}

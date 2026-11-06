@@ -1,0 +1,37 @@
+{
+  "snapshot_date": "2026-11-06",
+  "files": [
+    {
+      "path": "scripts/simulation.gd",
+      "sha256": "d1c7900607d386bf5e6e143c8997a6dd4ddf14ccd1a9d80b8266e0c0b1ce53ff",
+      "origin": "unchanged_project_code"
+    },
+    {
+      "path": "tests/parity.gd",
+      "sha256": "b8a5f76cfce2ab229d9ca883fa5f8eef7928841a1db9175e5e9c9b8e5e69236c",
+      "origin": "unchanged_project_code"
+    },
+    {
+      "path": "data/migration.json",
+      "sha256": "846941ca26aaa56035303948b8b4b74fdf6b7ca661a2181c4c8af8a157919de3",
+      "origin": "reviewed_data_subset"
+    },
+    {
+      "path": "data/parity-fixtures.json",
+      "sha256": "fc5cf124d01ebf7c8848740a6868d4f270592e7586902688420e617c39aa28d6",
+      "origin": "reviewed_data_subset"
+    },
+    {
+      "path": "project.godot",
+      "sha256": "b9ff488eb48882a58bf8528f8b1ac64e2372ad074238361ef18dad500899323b",
+      "origin": "public_example_configuration"
+    }
+  ],
+  "scope": "Existing production simulation and parity test copied unchanged. Only required map and fixture fields retained. No visual/audio assets.",
+  "fixture_reference": {
+    "kind": "earlier_project_rules_reference",
+    "sha256": "22813f82e5a7538d55b0d5b22a583012186aace5a47bebe4d04cefc4839f0cce",
+    "included": false
+  },
+  "license": "No blanket license; see ../../RIGHTS.md from the example directory."
+}
