@@ -103,5 +103,14 @@
     "models": false,
     "audio": false,
     "headless_rules_example": true
+  },
+  "intro_production": {
+    "actual_video_generation": true,
+    "composite_encoded": true,
+    "visual_sample_review": true,
+    "full_visual_audio_review": "pending",
+    "engine_playback": "not_verified",
+    "native_4k": false,
+    "integrated_in_documented_build": false
   }
 }
