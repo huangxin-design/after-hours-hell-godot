@@ -10,7 +10,7 @@ FILES = (
     ".gitignore", "AGENTS.md", "README.md", "RIGHTS.md", "project.json",
     "docs/architecture.md", "docs/build-and-run.md", "docs/for-ai.md", "docs/updating.md",
     "assets/provenance.json", "status/current.json", "status/history.json",
-    "status/repository-validation.json", "devlog/2026-11-06.md",
+    "status/repository-validation.json", "devlog/2026-11-06.md", "devlog/2026-11-07.md",
     "examples/godot-rules/project.godot", "examples/godot-rules/scripts/simulation.gd",
     "examples/godot-rules/tests/parity.gd", "examples/godot-rules/data/migration.json",
     "examples/godot-rules/data/parity-fixtures.json", "examples/godot-rules/source-manifest.json",

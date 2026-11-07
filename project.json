@@ -101,9 +101,10 @@
   "case_studies": {
     "primary_location": "project_website",
     "website": "https://after-hours-18-progress.meoworangecat.chatgpt.site/#diary",
-    "archive_url": null,
-    "archive_status": "awaiting_verified_public_link",
-    "repository_policy": "Link verified cases and retain concise context for reuse; do not duplicate full website diaries."
+    "archive_url": "https://after-hours-18-progress.meoworangecat.chatgpt.site/#memories",
+    "archive_status": "verified_public_link",
+    "repository_policy": "Link verified cases and retain concise context for reuse; do not duplicate full website diaries.",
+    "verified_on": "2026-11-07"
   },
   "skill_release_policy": {
     "status": "planned_none_delivered",

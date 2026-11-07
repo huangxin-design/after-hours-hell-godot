@@ -6,6 +6,13 @@
       "version": "character-showcase-3d-20261106-v001",
       "devlog": "devlog/2026-11-06.md",
       "summary": "Public documentation and rules example; Windows 3D selection for Guozai/Xiaomo; Yige unavailable."
+    },
+    {
+      "date": "2026-11-07",
+      "version": "public-index-20261107-v001",
+      "kind": "documentation_update",
+      "devlog": "devlog/2026-11-07.md",
+      "summary": "Verified website memory-archive link; executable examples and frozen runtime baseline unchanged."
     }
   ]
 }
