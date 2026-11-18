@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "as_of": "2026-11-06",
-  "policy": "Source records do not grant redistribution rights. Binary assets are excluded.",
+  "policy": "The assets array describes the Godot prototype on 2026-11-06. For the Windows Unreal release and downloadable samples use v011_release and RIGHTS.md.",
   "assets": [
     {
       "id": "guozai",
@@ -68,5 +68,12 @@
       "files_in_repository": [],
       "redistribution": "not_distributed_in_this_repository"
     }
-  ]
+  ],
+  "v011_release": {
+    "game": "Unreal Engine Windows playable build with included notices",
+    "print_candidates": "Guozai, Yige and Xiaomo / 150 mm / v005 STL and 3MF",
+    "milk_tea": "Aholo Lux3D task 6426248, Blender game mesh, companion UI icon",
+    "usage": "RIGHTS.md",
+    "downloads": "project.json"
+  }
 }

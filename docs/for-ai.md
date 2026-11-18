@@ -8,7 +8,7 @@
 
 Every command is local. There is no hosted game API, model-generation endpoint,
 reward service, email-delivery service, MCP server or automatic asset download here.
-The daily publisher is maintained separately and is not a public service.
+Public versioned downloads are listed in project.json.
 
 The repository is moving toward versioned Skills, tool scripts and reusable workflows.
 No packaged Skill has been delivered yet. The rules example and validator are actual

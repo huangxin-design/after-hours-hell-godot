@@ -18,7 +18,9 @@
     "character animation",
     "rigging",
     "game UI",
-    "AI-assisted game development"
+    "AI-assisted game development",
+    "Unreal Engine",
+    "3D printing"
   ],
   "index": {
     "readme": "README.md",
@@ -26,6 +28,8 @@
     "status": "status/current.json",
     "history": "status/history.json",
     "provenance": "assets/provenance.json",
+    "printer_case": "docs/lux3d/deadline-printer.md",
+    "character_index": "docs/lux3d/characters.md",
     "architecture": "docs/architecture.md",
     "build": "docs/build-and-run.md",
     "ai": "docs/for-ai.md",
@@ -33,7 +37,9 @@
     "rights": "RIGHTS.md",
     "example": "examples/godot-rules/project.godot",
     "example_sources": "examples/godot-rules/source-manifest.json",
-    "validation": "status/repository-validation.json"
+    "validation": "status/repository-validation.json",
+    "creator_notes": "docs/creator-notes.md",
+    "prototype_status": "status/godot-20261106.json"
   },
   "local_commands": [
     {
@@ -66,9 +72,22 @@
     }
   ],
   "remote_apis": [],
-  "binary_downloads": [],
+  "binary_downloads": [
+    {
+      "name": "AfterHoursHell-Windows-v011.zip",
+      "url": "https://github.com/huangxin-design/after-hours-hell-godot/releases/download/v011/AfterHoursHell-Windows-v011.zip",
+      "bytes": 852595689,
+      "sha256": "bb1ab8cc17306e36b33157f5a66df81390e57d86a6477936b06630cadcba0f8f"
+    },
+    {
+      "name": "AfterHoursHell-Models-v011.zip",
+      "url": "https://github.com/huangxin-design/after-hours-hell-godot/releases/download/v011/AfterHoursHell-Models-v011.zip",
+      "bytes": 41869007,
+      "sha256": "1ba08fe77867069413d42285dd5e8ebc3ee312485c4e0ddb7ab91225c43cd4f5"
+    }
+  ],
   "license": "See RIGHTS.md; no blanket license",
-  "repository_role": "versioned_reusable_skills_tools_and_workflows",
+  "repository_role": "versioned_game_releases_model_samples_and_production_cases",
   "skills": [],
   "mcp_servers": [],
   "reusable_contents": [

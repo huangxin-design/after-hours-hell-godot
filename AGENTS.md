@@ -11,9 +11,8 @@ This repository documents 地狱也得下班 (After Hours in Hell). Read `projec
 - Preserve existing release history. Do not invent features to satisfy a daily cadence.
 - Preserve the distinction between concept, Blender asset, engine integration,
   automated checks, captured pixels, human playtest and print validation.
-- The full game is native Godot, keyboard-first and offline. The website is a diary.
-- Guozai and Xiaomo are available in the documented Windows build; Yige is disabled.
-  Use the current status file if a later reviewed update supersedes this snapshot.
+- The current Windows release uses Unreal Engine and includes Guozai, Yige and Xiaomo.
+  The Godot example and November 6 status are versioned historical materials.
 - Do not invent APIs, downloads, service credentials, completed levels or performance.
 - `examples/godot-rules` is a small rules snapshot. Its tests do not prove rendering,
   navigation, physical input, audio quality, macOS runtime or the complete game.

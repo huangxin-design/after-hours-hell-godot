@@ -13,6 +13,12 @@
       "kind": "documentation_update",
       "devlog": "devlog/2026-11-07.md",
       "summary": "Verified website memory-archive link; executable examples and frozen runtime baseline unchanged."
+    },
+    {
+      "date": "2026-11-18",
+      "version": "v011",
+      "devlog": "devlog/2026-11-18.md",
+      "summary": "Windows Unreal demo, three printable character studies, milk-tea game asset and edited creator notes."
     }
   ]
 }

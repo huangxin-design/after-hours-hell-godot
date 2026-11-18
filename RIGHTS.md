@@ -1,16 +1,12 @@
-# Rights and distribution
+# 素材来源与使用范围
 
-本仓库公开项目记录和经审查的技术示例；当前没有为整个仓库授予统一开源许可证。
-公开可见不代表模型、角色、贴图、字体、音频或作品名称可自由再分发或用于其他作品。
-需要超出查看与本地技术复现范围的使用授权时，请向仓库维护者确认。
+《地狱也得下班》由黄花鱼 AIGC 制作。项目公开经整理的制作手记、技术示例、Windows 试玩包和选定的模型样本。
 
-- `examples/godot-rules/`：本项目现有规则代码、测试和数值数据的选取快照；
-  `source-manifest.json` 记录内容哈希与提取范围。未添加第三方引擎代码。
-- Godot 与 Blender：仅作为制作工具列出，本仓库不分发其软件。
-- Aholo / Lux3D：用于生成可见 3D 底模；本仓库不分发原始模型、贴图或服务凭据。
-- 模型、动作、音频、字体和视频：来源索引不等于文件许可。本仓库未包含这些二进制素材。
-- 以后如为某个文件另行确定许可证，必须限定适用范围并保留所需署名。
+| 内容 | 来源与用途 |
+| --- | --- |
+| Windows v011 试玩包 | 用于下载、解压和个人试玩。引擎运行时、字体及其他随附组件沿用各自的声明，见包内的 NOTICES 与 Licenses 文件。 |
+| 下班奶茶 GLB 与 UI 图标 | 3D 底模由群核 Aholo Lux3D 生成，项目在 Blender 中修整杯体与材质；PNG 是项目新版 UI 图标。样本供查看、学习与个人试用。 |
+| 锅仔、小默、椅哥 STL 与 3MF | 源自项目角色，经尺寸和底座调整后导出为 150 mm 数字打印候选，可供个人试打。逐件说明随模型一同提供。 |
+| 案例文字、图片与示例代码 | 案例取自项目的实际制作与版本记录，示例代码的来源可在 examples/godot-rules/source-manifest.json 核对。 |
 
-No repository-wide open-source license is granted at this time. Consult each
-asset's provenance and obtain the necessary permission before redistribution or
-reuse. A source listing or a tool name does not grant rights to that tool's output.
+本次发布沿用逐项说明。作品名、角色、美术与模型没有统一的开源许可证。如需再分发、改编或商业使用，请先与作者确认。完整 Unreal 工程源码的发布范围另行确定。
