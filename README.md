@@ -1,5 +1,7 @@
 # 地狱也得下班
 
+[![《地狱也得下班》宣传片封面：锅仔举起铁锅，三位同事冲过熔岩桥。点图下载有声宣传片。](docs/images/after-hours.webp)](https://github.com/huangxin-design/after-hours-hell-godot/releases/download/trailer-20261119/AfterHoursHell-Gameplay-Trailer.mp4)
+
 **17:59，电梯门开了。** 门外是一座熔岩地府。加急文件从打印机里飞出来，审批章砸在必经的桥上，出口还等着最后一次打卡。
 
 这是黄花鱼 AIGC 为 Aholo 黑客松制作的单人 3D 闯关游戏。选锅仔，用铁锅把来袭的飞锅弹回去；选椅哥，放低椅背从锅底下滑过；选小默，让替身吸引火力，自己绕过去。三位同事走同一条下班路，各有各的活法。
@@ -12,7 +14,7 @@
 
 **15.6 秒走一遍下班路。** 退件包贴着熔岩桥冲过来。到了甩锅机前，锅仔举锅反弹，小默留下替身，椅哥顺势躺平。再往前，一杯续命奶茶放在会塌的地板上，回程还要看准两道闸杆的空当。
 
-[![宣传片的九个实机镜头，从熔岩桥、三位同事应对飞锅，到奶茶陷阱、审判台和下班闸](docs/gallery/gameplay-trailer.gif)](https://github.com/huangxin-design/after-hours-hell-godot/releases/download/trailer-20261119/AfterHoursHell-Gameplay-Trailer.mp4)
+![宣传片的九个实机镜头，从熔岩桥、三位同事应对飞锅，到奶茶陷阱、审判台和下班闸](docs/gallery/gameplay-trailer.gif)
 
 [查看实机 GIF 原图](docs/gallery/gameplay-trailer.gif)　·　[下载完整宣传片 · 1080p / 66.5 秒 / 中文配音与字幕（MP4，56 MB）](https://github.com/huangxin-design/after-hours-hell-godot/releases/download/trailer-20261119/AfterHoursHell-Gameplay-Trailer.mp4)
 
