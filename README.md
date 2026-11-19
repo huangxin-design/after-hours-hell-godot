@@ -80,10 +80,10 @@
 
 **这份 Codex Skill 是我们根据开发《地狱也得下班》时踩过的坑，自己整理编写的。** 我们把当时如何复现问题、该看哪一帧、怎样确认修好都写了下来，供其他 3D 游戏开发者复用。
 
-| 椅哥躺平时，椅背接住身体了吗？ | 文件从打印机的哪个位置飞出来？ |
+| 文件掠过头顶时，椅哥躲开了吗？ | 飞出的纸包对得上打印机托盘吗？ |
 | :--- | :--- |
-| [![椅哥选角动作连续取样，从坐姿后仰再回正](docs/lux3d/images/yige-select.webp)](docs/lux3d/characters.md) | [![坡顶的催命打印机，托盘前沿和桥面上的通行位置清晰可见](docs/lux3d/images/printer-detail.webp)](docs/lux3d/deadline-printer.md) |
-| **看动作过渡。** 顺着侧面的连续帧，检查身体何时贴上椅背、何时离开。[角色绑定记录](docs/lux3d/characters.md) | **看出纸位置。** 机身和纸包分开导出，对照托盘开口检查文件的起点和方向。[打印机制作记录](docs/lux3d/deadline-printer.md) |
+| [![椅哥后仰时文件从头顶掠过，随后坐回原位，两帧取自同一段选角演示](docs/gallery/yige-dodge-v013.webp)](docs/gallery/yige-dodge-v013.webp) | [![坡顶打印机的纸包刚飞出托盘，锅仔站在出纸口右侧](docs/gallery/printer-ejection-v012.webp)](docs/gallery/printer-ejection-v012.webp) |
+| **v013 · 虚幻引擎选角演示**<br>左图看文件与头顶的空隙，右图看椅哥坐回去时，身体和椅背能否对上。[查看角色绑定记录](docs/lux3d/characters.md) | **v012 · 虚幻引擎关卡实录**<br>在第 16.6 秒暂停，纸包刚离开托盘。顺着出纸口看，就能判断它会飞向桥面的哪一侧。[查看打印机制作记录](docs/lux3d/deadline-printer.md) |
 
 [阅读五个开发踩坑案例](skills/ai-3d-game-qa/references/after-hours-case.md) · **[查看项目组原创 Skill · AI 3D 游戏接入排查](skills/ai-3d-game-qa/SKILL.md)**
 

@@ -11,9 +11,9 @@
   },
   "checked_on": "2026-11-19",
   "public_tree_checks": {
-    "reviewed_files": 65,
-    "reviewed_images": 34,
-    "relative_links": 50,
+    "reviewed_files": 67,
+    "reviewed_images": 36,
+    "relative_links": 59,
     "guard_cases": 9
   },
   "attachments_checked": [

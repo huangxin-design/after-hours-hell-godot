@@ -21,6 +21,8 @@ REVIEWED_PREVIEWS = {
     "docs/gallery/models-mechanisms.webp": "dfb717c2f76c58579569a017baffaf3237ecf09dc7e4307d2a935bcd9edd5972",
     "docs/gallery/models-office.webp": "88ea85a16282584490d40a8e25dc956e61eebf025a3b37cabb29d1e042f757e0",
     "docs/gallery/prop-designs.webp": "012ff46a7b92e759ddef99b0e6b07af2c392c4eba57867a8e23be2eb0521fb15",
+    "docs/gallery/printer-ejection-v012.webp": "d9078346d9816573912f3473a75c9dc5f27e47513e46dba57eede373a9e7f69a",
+    "docs/gallery/yige-dodge-v013.webp": "ad70af275c1eea4703c91fab2d0137e0bcb0f3e78a437524f1028bfd11a5284e",
     "docs/images/after-hours.webp": "db51425353e8c11e303f71d834c4073dcbc241b187ade91a69f031bd56574298",
     "docs/images/furnace-v011.webp": "e5683ba2ede7c43b733989056aa3127dbd709c395f7935c43acc31f953f5173c",
     "docs/images/guozai-print-study.webp": "ecaf06034b3228f072ac494fca76238070d2c0ac11544b9915c9f47aac6d0e21",
