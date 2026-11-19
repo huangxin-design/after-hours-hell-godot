@@ -10,11 +10,10 @@ Every command is local. There is no hosted game API, model-generation endpoint,
 reward service, email-delivery service, MCP server or automatic asset download here.
 Public versioned downloads are listed in project.json.
 
-The repository is moving toward versioned Skills, tool scripts and reusable workflows.
-No packaged Skill has been delivered yet. The rules example and validator are actual
-local entry points, with project-specific data and allowlists; do not describe them as
-universal drop-in tools. Future Skill releases must use skill-creator and demonstrate
-successful use on a real task, with dependencies and verification scope documented.
+Use [ai-3d-game-qa](../skills/ai-3d-game-qa/SKILL.md) when diagnosing an asset,
+animation, first-frame, encounter or packaged-build regression. Its linked case references
+the project's recorded v011 evidence. The rules example and validator use project-specific
+data and allowlists.
 
 Full debugging stories and before/after comparisons belong on the project website.
 Use the verified links in `project.json`; a null archive URL means the dedicated page

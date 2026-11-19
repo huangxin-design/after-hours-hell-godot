@@ -4,6 +4,8 @@
 
 这是黄花鱼 AIGC 为 Aholo 黑客松制作的单人 3D 闯关游戏。选锅仔，用铁锅把来袭的飞锅弹回去；选椅哥，放低椅背从锅底下滑过；选小默，让替身吸引火力，自己绕过去。三位同事走同一条下班路，各有各的活法。
 
+想了解 **AI 游戏开发**（AI-assisted game development）和 **3D 游戏制作**（3D game development），这里也有一条实际工作流。群核 Lux3D 生成底模，Blender 修整资产，Unreal Engine 接入玩法。仓库保留了早期 Godot 规则原型。
+
 ## 游戏截图
 
 ![锅仔走到熔岩关卡的凭证台，远处是油锅炉](docs/gallery/game-floor.webp)
@@ -69,6 +71,13 @@
 3 份人物三视图、4 份道具三视图、8 张界面设定和 12 枚透明 PNG 图标。
 
 [读创作者手记](docs/creator-notes.md) · [看催命打印机的制作过程](docs/lux3d/deadline-printer.md) · [看三位角色的动作绑定](docs/lux3d/characters.md) · [素材使用说明](RIGHTS.md)
+
+## 开发踩坑复盘与 Codex Skill
+
+选角卡片只在第一帧闪、椅哥一后仰就离开椅背、机关能单独运行却走不完整关。我们把这些容易漏掉的检查整理成一份 Skill，能按现象找到对应的检查点、复现步骤和验收证据。
+
+- [读《地狱也得下班》开发踩坑复盘](skills/ai-3d-game-qa/references/after-hours-case.md)
+- [查看 AI 3D 游戏接入排查 Skill](skills/ai-3d-game-qa/SKILL.md)。将 `ai-3d-game-qa` 目录放到 Codex 的 Skills 目录后，可用 `$ai-3d-game-qa` 调用。
 
 ## 特别鸣谢
 

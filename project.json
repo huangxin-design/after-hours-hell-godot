@@ -10,6 +10,10 @@
     "en"
   ],
   "keywords": [
+    "AI 游戏",
+    "AI 游戏开发",
+    "AI game development",
+    "3D 游戏",
     "3D game development",
     "3D 游戏开发",
     "Godot",
@@ -39,7 +43,9 @@
     "example_sources": "examples/godot-rules/source-manifest.json",
     "validation": "status/repository-validation.json",
     "creator_notes": "docs/creator-notes.md",
-    "prototype_status": "status/godot-20261106.json"
+    "prototype_status": "status/godot-20261106.json",
+    "ai_3d_game_qa": "skills/ai-3d-game-qa/SKILL.md",
+    "development_pitfalls": "skills/ai-3d-game-qa/references/after-hours-case.md"
   },
   "local_commands": [
     {
@@ -100,7 +106,15 @@
   ],
   "license": "See RIGHTS.md; no blanket license",
   "repository_role": "versioned_game_releases_model_samples_and_production_cases",
-  "skills": [],
+  "skills": [
+    {
+      "id": "ai-3d-game-qa",
+      "version": "0.1.0",
+      "entry": "skills/ai-3d-game-qa/SKILL.md",
+      "case": "skills/ai-3d-game-qa/references/after-hours-case.md",
+      "validation": "Retrospective walkthrough against the recorded v011 first-frame sequences."
+    }
+  ],
   "mcp_servers": [],
   "reusable_contents": [
     {
@@ -138,7 +152,7 @@
     "verified_on": "2026-11-07"
   },
   "skill_release_policy": {
-    "status": "planned_none_delivered",
+    "status": "available",
     "authoring": "skill-creator",
     "acceptance": "Actual task validation with documented inputs, outputs, dependencies and permission boundaries before release."
   }

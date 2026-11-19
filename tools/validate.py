@@ -50,6 +50,7 @@ REVIEWED_DOWNLOADS = {
     ('art-20261119', 'AfterHoursHell-Design-Kit.zip'): (49871460, '07d5b94456eae80db137a7d96a8318e2f8d448b9b51b2e80a90b38dfe3ea5b15'),
 }
 FILES = (
+    "skills/ai-3d-game-qa/SKILL.md", "skills/ai-3d-game-qa/references/after-hours-case.md",
     "devlog/2026-11-19.md",
     "docs/creator-notes.md", "devlog/2026-11-18.md", "status/godot-20261106.json",
     ".gitignore", "AGENTS.md", "README.md", "RIGHTS.md", "project.json",

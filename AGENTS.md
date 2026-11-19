@@ -3,9 +3,8 @@
 This repository documents 地狱也得下班 (After Hours in Hell). Read `project.json`,
 `status/current.json` and `assets/provenance.json` before making claims.
 
-- Prioritize reusable tools, workflows and, when actually delivered, versioned Skills.
-  There are currently no packaged Skills or MCP servers. Use skill-creator for future
-  Skill authoring and validate it on a real task before claiming it is delivered.
+- The AI-assisted 3D game integration Skill is indexed in `project.json`.
+  Use skill-creator for future Skill changes and validate the workflow against real case evidence.
 - The website owns full debugging narratives and before/after media. Link verified
   public cases and include only the technical summary needed for reuse here.
 - Preserve existing release history. Do not invent features to satisfy a daily cadence.
