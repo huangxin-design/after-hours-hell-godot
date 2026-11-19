@@ -7,6 +7,7 @@ import re
 
 ROOT = Path(__file__).resolve().parents[1]
 REVIEWED_PREVIEWS = {
+    "docs/gallery/gameplay-trailer-props.webp": "1aad218af1491d6c2e7aca83ea2b55489981864cf067f089e4e1e7c24724589d",
     "docs/gallery/cg-bridge.webp": "6e0cd50f7513af0b3eea26270dd069b7a2048b098ea481d40a7ceb463460adc9",
     "docs/gallery/cg-bell.webp": "00a216e18a567eaf3f958f9dcad14cc46faa8030576a96cfdd27d42c2a0049f4",
     "docs/gallery/cg-guozai.webp": "47c47e21cc9f3ed5f6950bcf842e36eb11d71e82338a643a1cb1283c160a61fd",
@@ -60,6 +61,7 @@ REVIEWED_DOWNLOADS = {
     ('cg-20261119', 'AfterHoursHell-Guozai.mp4'): (12302659, '157d461d8e3caa57d0944dc042b1fa266f7a33be86a2bdeee49d5db2b08c4e1b'),
     ('cg-20261119', 'AfterHoursHell-Yige.mp4'): (12529025, 'f7295dd89ded4853256a3a23c7c36de7332be6f46a4c98474f160e0a64bd7f51'),
     ('cg-20261119', 'AfterHoursHell-Xiaomo.mp4'): (13083087, 'cc19ae1ea95030e67a5a1228f11f1c06be272c587c10a4a5aab3cf3d719bee55'),
+    ('trailer-20261119', 'AfterHoursHell-Gameplay-Trailer.mp4'): (56208220, 'cec8630e1541b3da1ef53bfc722020f18bb6937b175882333df904e8e19004d9'),
 }
 FILES = (
     "skills/ai-3d-game-qa/SKILL.md", "skills/ai-3d-game-qa/references/after-hours-case.md",

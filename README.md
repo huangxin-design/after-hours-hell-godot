@@ -4,7 +4,7 @@
 
 这是黄花鱼 AIGC 为 Aholo 黑客松制作的单人 3D 闯关游戏。选锅仔，用铁锅把来袭的飞锅弹回去；选椅哥，放低椅背从锅底下滑过；选小默，让替身吸引火力，自己绕过去。三位同事走同一条下班路，各有各的活法。
 
-**[下载 Windows 试玩包 · v011（853 MB）](https://github.com/huangxin-design/after-hours-hell-godot/releases/download/v011/AfterHoursHell-Windows-v011.zip)**　·　[浏览 3D 游戏资产](#第一层的-19-件-3d-资产)　·　[AI 游戏开发复盘与原创 Skill](#项目组原创-skill)
+**[下载 Windows 试玩包 · v011（853 MB）](https://github.com/huangxin-design/after-hours-hell-godot/releases/download/v011/AfterHoursHell-Windows-v011.zip)**　·　[下载游戏宣传片](https://github.com/huangxin-design/after-hours-hell-godot/releases/download/trailer-20261119/AfterHoursHell-Gameplay-Trailer.mp4)　·　[浏览 3D 游戏资产](#第一层的-19-件-3d-资产)　·　[AI 游戏开发复盘与原创 Skill](#项目组原创-skill)
 
 ## 开场 CG · 下班，走这边
 
@@ -17,13 +17,17 @@
 
 ## 试玩第一层「油锅地狱」
 
-![锅仔走到熔岩关卡的凭证台，远处是油锅炉](docs/gallery/game-floor.webp)
+**游戏宣传片 · 道具实录修订版**　退件包贴着桥面冲过来，看到地上的箭头就起跳。到了续命奶茶旁边，拿完还得赶紧走，脚下的地板会塌。
 
-| 选一位下班搭子 | 穿过返程打卡闸 |
-| :--- | :--- |
-| ![锅仔的选角界面与举锅反弹技能介绍](docs/gallery/game-select.webp) | ![角色面对返程桥上连续扫过的两道闸杆](docs/gallery/game-gate.webp) |
+[![宣传片节选：三位同事来到桥头、锅仔面对地面箭头、续命奶茶增加备用生命](docs/gallery/gameplay-trailer-props.webp)](https://github.com/huangxin-design/after-hours-hell-godot/releases/download/trailer-20261119/AfterHoursHell-Gameplay-Trailer.mp4)
 
-*以上为 Unreal Engine 的 v012 开发版实机截图。当前公开试玩为 v011。*
+[下载完整宣传片 · 1080p / 66.5 秒 / 中文配音与字幕（MP4，56 MB）](https://github.com/huangxin-design/after-hours-hell-godot/releases/download/trailer-20261119/AfterHoursHell-Gameplay-Trailer.mp4)
+
+| 选一位下班搭子 | 走上熔岩桥 | 穿过返程打卡闸 |
+| :--- | :--- | :--- |
+| ![锅仔的选角界面与举锅反弹技能介绍](docs/gallery/game-select.webp) | ![锅仔走到熔岩关卡的凭证台，远处是油锅炉](docs/gallery/game-floor.webp) | ![角色面对返程桥上连续扫过的两道闸杆](docs/gallery/game-gate.webp) |
+
+*这三张截图来自 Unreal Engine 的 v012 开发版。当前公开试玩为 v011。*
 
 **怎么玩**　完整解压试玩包后，双击 `窗口试玩 1280x720.cmd` 或 `4K 全屏试玩.cmd`。WASD 移动，鼠标转视角，空格跳跃，F 使用角色技能，E 与场景互动。
 

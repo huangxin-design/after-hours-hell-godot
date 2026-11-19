@@ -132,6 +132,12 @@
       "url": "https://github.com/huangxin-design/after-hours-hell-godot/releases/download/cg-20261119/AfterHoursHell-Xiaomo.mp4",
       "bytes": 13083087,
       "sha256": "cc19ae1ea95030e67a5a1228f11f1c06be272c587c10a4a5aab3cf3d719bee55"
+    },
+    {
+      "name": "AfterHoursHell-Gameplay-Trailer.mp4",
+      "url": "https://github.com/huangxin-design/after-hours-hell-godot/releases/download/trailer-20261119/AfterHoursHell-Gameplay-Trailer.mp4",
+      "bytes": 56208220,
+      "sha256": "cec8630e1541b3da1ef53bfc722020f18bb6937b175882333df904e8e19004d9"
     }
   ],
   "license": "See RIGHTS.md; no blanket license",
