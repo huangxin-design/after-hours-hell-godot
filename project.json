@@ -102,6 +102,36 @@
       "url": "https://github.com/huangxin-design/after-hours-hell-godot/releases/download/art-20261119/AfterHoursHell-Design-Kit.zip",
       "bytes": 49871460,
       "sha256": "07d5b94456eae80db137a7d96a8318e2f8d448b9b51b2e80a90b38dfe3ea5b15"
+    },
+    {
+      "name": "AfterHoursHell-Bridge.mp4",
+      "url": "https://github.com/huangxin-design/after-hours-hell-godot/releases/download/cg-20261119/AfterHoursHell-Bridge.mp4",
+      "bytes": 22228876,
+      "sha256": "10809303864931f50e887ca04626be1810e2af565e92f49b654a7a3d97a1590d"
+    },
+    {
+      "name": "AfterHoursHell-Bell.mp4",
+      "url": "https://github.com/huangxin-design/after-hours-hell-godot/releases/download/cg-20261119/AfterHoursHell-Bell.mp4",
+      "bytes": 7173594,
+      "sha256": "0c67325785f4c98c77c12885bc6be2927e5c9a46e36ee15545332961b38c30e9"
+    },
+    {
+      "name": "AfterHoursHell-Guozai.mp4",
+      "url": "https://github.com/huangxin-design/after-hours-hell-godot/releases/download/cg-20261119/AfterHoursHell-Guozai.mp4",
+      "bytes": 12302659,
+      "sha256": "157d461d8e3caa57d0944dc042b1fa266f7a33be86a2bdeee49d5db2b08c4e1b"
+    },
+    {
+      "name": "AfterHoursHell-Yige.mp4",
+      "url": "https://github.com/huangxin-design/after-hours-hell-godot/releases/download/cg-20261119/AfterHoursHell-Yige.mp4",
+      "bytes": 12529025,
+      "sha256": "f7295dd89ded4853256a3a23c7c36de7332be6f46a4c98474f160e0a64bd7f51"
+    },
+    {
+      "name": "AfterHoursHell-Xiaomo.mp4",
+      "url": "https://github.com/huangxin-design/after-hours-hell-godot/releases/download/cg-20261119/AfterHoursHell-Xiaomo.mp4",
+      "bytes": 13083087,
+      "sha256": "cc19ae1ea95030e67a5a1228f11f1c06be272c587c10a4a5aab3cf3d719bee55"
     }
   ],
   "license": "See RIGHTS.md; no blanket license",

@@ -6,6 +6,15 @@
 
 **[下载 Windows 试玩包 · v011（853 MB）](https://github.com/huangxin-design/after-hours-hell-godot/releases/download/v011/AfterHoursHell-Windows-v011.zip)**　·　[浏览 3D 游戏资产](#第一层的-19-件-3d-资产)　·　[AI 游戏开发复盘与原创 Skill](#项目组原创-skill)
 
+## 开场 CG · 下班，走这边
+
+三位同事等到了下班铃。电梯门一开，面前却是一座通往地府的桥。
+
+| 下班，走这边 | 下班铃响 · 通道开启 |
+| :--- | :--- |
+| [<img src="docs/gallery/cg-bridge.webp" width="440" alt="桥头字幕版动图节选：三位同事走出电梯，来到熔岩桥头">](https://github.com/huangxin-design/after-hours-hell-godot/releases/download/cg-20261119/AfterHoursHell-Bridge.mp4) | [<img src="docs/gallery/cg-bell.webp" width="440" alt="铃铛旁的熔岩桥通向一扇亮起的地府大门">](https://github.com/huangxin-design/after-hours-hell-godot/releases/download/cg-20261119/AfterHoursHell-Bell.mp4) |
+| [下载桥头字幕版 · 28 秒 MP4](https://github.com/huangxin-design/after-hours-hell-godot/releases/download/cg-20261119/AfterHoursHell-Bridge.mp4) | [下载通道短片 · 5 秒 MP4](https://github.com/huangxin-design/after-hours-hell-godot/releases/download/cg-20261119/AfterHoursHell-Bell.mp4) |
+
 ## 试玩第一层「油锅地狱」
 
 ![锅仔走到熔岩关卡的凭证台，远处是油锅炉](docs/gallery/game-floor.webp)
@@ -25,6 +34,12 @@
 ### 人物 · 三位下班搭子
 
 ![锅仔、小默和椅哥的独立角色模型](docs/gallery/models-cast.webp)
+
+**角色技能 CG · 子弹时间**　同一发来袭的弹丸，三个人各有一招。点击下方画面可下载对应的 10 秒有声短片。
+
+| 锅仔 · 举锅反弹 | 椅哥 · 躺平闪避加速 | 小默 · 替身诱敌 |
+| :--- | :--- | :--- |
+| [![锅仔侧身举锅，弹丸迎面撞上锅底](docs/gallery/cg-guozai.webp)](https://github.com/huangxin-design/after-hours-hell-godot/releases/download/cg-20261119/AfterHoursHell-Guozai.mp4) | [![椅哥压低椅背，让弹丸从头顶飞过](docs/gallery/cg-yige.webp)](https://github.com/huangxin-design/after-hours-hell-godot/releases/download/cg-20261119/AfterHoursHell-Yige.mp4) | [![蓝色替身留在原地，小默转身走向控制台](docs/gallery/cg-xiaomo.webp)](https://github.com/huangxin-design/after-hours-hell-godot/releases/download/cg-20261119/AfterHoursHell-Xiaomo.mp4) |
 
 ### 场景 · 用四种构件拼出关卡
 

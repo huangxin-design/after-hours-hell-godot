@@ -7,6 +7,11 @@ import re
 
 ROOT = Path(__file__).resolve().parents[1]
 REVIEWED_PREVIEWS = {
+    "docs/gallery/cg-bridge.webp": "6e0cd50f7513af0b3eea26270dd069b7a2048b098ea481d40a7ceb463460adc9",
+    "docs/gallery/cg-bell.webp": "00a216e18a567eaf3f958f9dcad14cc46faa8030576a96cfdd27d42c2a0049f4",
+    "docs/gallery/cg-guozai.webp": "47c47e21cc9f3ed5f6950bcf842e36eb11d71e82338a643a1cb1283c160a61fd",
+    "docs/gallery/cg-yige.webp": "4c5a17f591c1722fda2697ec356091b5dd8174b82ec0feab94da78e3f2ca824d",
+    "docs/gallery/cg-xiaomo.webp": "c0dfa87702cce06c8f26db92326500d5d63937278098a43fe98a383e28480570",
     "docs/gallery/agibar.png": "a28f449a295f2c89edd931a7737d1e48c79d9a744cf7cbd0bd5f6c069fc4049c",
     "docs/gallery/aholo-dark.png": "58f0967840013979cbb966d50b5f8e618c14d295fc0a7c65459ea0b77207f2e6",
     "docs/gallery/aholo-light.png": "689305097bbf4c6b0fdcd5d2129d1c51ace635e3e3fbd2cfcbe2117b2be99155",
@@ -50,6 +55,11 @@ REVIEWED_DOWNLOADS = {
     ('v011', 'AfterHoursHell-Models-v011.zip'): (41869007, '1ba08fe77867069413d42285dd5e8ebc3ee312485c4e0ddb7ab91225c43cd4f5'),
     ('art-20261119', 'AfterHoursHell-3D-Gallery.zip'): (106740003, '1be5ad07e21b9902e70fb7d45ec377a5613c00050d617f50b0f5ce193a98b1be'),
     ('art-20261119', 'AfterHoursHell-Design-Kit.zip'): (49871460, '07d5b94456eae80db137a7d96a8318e2f8d448b9b51b2e80a90b38dfe3ea5b15'),
+    ('cg-20261119', 'AfterHoursHell-Bridge.mp4'): (22228876, '10809303864931f50e887ca04626be1810e2af565e92f49b654a7a3d97a1590d'),
+    ('cg-20261119', 'AfterHoursHell-Bell.mp4'): (7173594, '0c67325785f4c98c77c12885bc6be2927e5c9a46e36ee15545332961b38c30e9'),
+    ('cg-20261119', 'AfterHoursHell-Guozai.mp4'): (12302659, '157d461d8e3caa57d0944dc042b1fa266f7a33be86a2bdeee49d5db2b08c4e1b'),
+    ('cg-20261119', 'AfterHoursHell-Yige.mp4'): (12529025, 'f7295dd89ded4853256a3a23c7c36de7332be6f46a4c98474f160e0a64bd7f51'),
+    ('cg-20261119', 'AfterHoursHell-Xiaomo.mp4'): (13083087, 'cc19ae1ea95030e67a5a1228f11f1c06be272c587c10a4a5aab3cf3d719bee55'),
 }
 FILES = (
     "skills/ai-3d-game-qa/SKILL.md", "skills/ai-3d-game-qa/references/after-hours-case.md",
