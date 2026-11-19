@@ -7,6 +7,7 @@ import re
 
 ROOT = Path(__file__).resolve().parents[1]
 REVIEWED_PREVIEWS = {
+    "docs/gallery/gameplay-trailer.gif": "b2741fed131324136079b8700fa10f7b9e8bcaec378596da5b3568def1c06434",
     "docs/gallery/gameplay-trailer-props.webp": "1aad218af1491d6c2e7aca83ea2b55489981864cf067f089e4e1e7c24724589d",
     "docs/gallery/cg-bridge.webp": "6e0cd50f7513af0b3eea26270dd069b7a2048b098ea481d40a7ceb463460adc9",
     "docs/gallery/cg-bell.webp": "00a216e18a567eaf3f958f9dcad14cc46faa8030576a96cfdd27d42c2a0049f4",
@@ -111,7 +112,8 @@ def validate(root=ROOT):
     total = 0
     for name in sorted(FILES):
         raw = (root / name).read_bytes()
-        if len(raw) > 200_000:
+        size_limit = 9_100_000 if name == "docs/gallery/gameplay-trailer.gif" else 200_000
+        if len(raw) > size_limit:
             raise ValueError("Unexpected large file: " + name)
         hashes[name] = hashlib.sha256(raw).hexdigest()
         total += len(raw)

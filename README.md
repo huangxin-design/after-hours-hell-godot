@@ -8,22 +8,13 @@
 
 [下载游戏宣传片](https://github.com/huangxin-design/after-hours-hell-godot/releases/download/trailer-20261119/AfterHoursHell-Gameplay-Trailer.mp4)　·　[浏览 3D 游戏资产](#第一层的-19-件-3d-资产)　·　[AI 游戏开发复盘与原创 Skill](#项目组原创-skill)
 
-## 开场 CG · 下班，走这边
-
-三位同事等到了下班铃。电梯门一开，面前却是一座通往地府的桥。
-
-| 下班，走这边 | 下班铃响 · 通道开启 |
-| :--- | :--- |
-| [<img src="docs/gallery/cg-bridge.webp" width="440" alt="桥头字幕版动图节选：三位同事走出电梯，来到熔岩桥头">](https://github.com/huangxin-design/after-hours-hell-godot/releases/download/cg-20261119/AfterHoursHell-Bridge.mp4) | [<img src="docs/gallery/cg-bell.webp" width="440" alt="铃铛旁的熔岩桥通向一扇亮起的地府大门">](https://github.com/huangxin-design/after-hours-hell-godot/releases/download/cg-20261119/AfterHoursHell-Bell.mp4) |
-| [下载桥头字幕版 · 28 秒 MP4](https://github.com/huangxin-design/after-hours-hell-godot/releases/download/cg-20261119/AfterHoursHell-Bridge.mp4) | [下载通道短片 · 5 秒 MP4](https://github.com/huangxin-design/after-hours-hell-godot/releases/download/cg-20261119/AfterHoursHell-Bell.mp4) |
-
 ## 试玩第一层「油锅地狱」
 
-**游戏宣传片 · 道具实录修订版**　退件包贴着桥面冲过来，看到地上的箭头就起跳。到了续命奶茶旁边，拿完还得赶紧走，脚下的地板会塌。
+**15.6 秒走一遍下班路。** 退件包贴着熔岩桥冲过来。到了甩锅机前，锅仔举锅反弹，小默留下替身，椅哥顺势躺平。再往前，一杯续命奶茶放在会塌的地板上，回程还要看准两道闸杆的空当。
 
-[![宣传片节选：三位同事来到桥头、锅仔面对地面箭头、续命奶茶增加备用生命](docs/gallery/gameplay-trailer-props.webp)](https://github.com/huangxin-design/after-hours-hell-godot/releases/download/trailer-20261119/AfterHoursHell-Gameplay-Trailer.mp4)
+[![宣传片的九个实机镜头，从熔岩桥、三位同事应对飞锅，到奶茶陷阱、审判台和下班闸](docs/gallery/gameplay-trailer.gif)](https://github.com/huangxin-design/after-hours-hell-godot/releases/download/trailer-20261119/AfterHoursHell-Gameplay-Trailer.mp4)
 
-[下载完整宣传片 · 1080p / 66.5 秒 / 中文配音与字幕（MP4，56 MB）](https://github.com/huangxin-design/after-hours-hell-godot/releases/download/trailer-20261119/AfterHoursHell-Gameplay-Trailer.mp4)
+[查看实机 GIF 原图](docs/gallery/gameplay-trailer.gif)　·　[下载完整宣传片 · 1080p / 66.5 秒 / 中文配音与字幕（MP4，56 MB）](https://github.com/huangxin-design/after-hours-hell-godot/releases/download/trailer-20261119/AfterHoursHell-Gameplay-Trailer.mp4)
 
 | 选一位下班搭子 | 走上熔岩桥 | 穿过返程打卡闸 |
 | :--- | :--- | :--- |
@@ -34,6 +25,15 @@
 **怎么玩**　完整解压 v015 后，双击根目录的 `窗口试玩 1280x720.cmd` 或 `4K 全屏试玩.cmd`。先看故事开场，选好角色点「出发」就会播放这位同事的技能片。两处都可以按空格跳过。进入关卡后，WASD 移动，鼠标转视角，空格跳跃，F 使用技能，E 互动。
 
 **想看怎么做的？** 源码包内有游戏 C++ 模块、自有 UI 插件、第一层地图和玩法规则。重建完整画面还需要配套模型、动画、材质和音频。[查看源码目录与素材依赖](docs/build-and-run.md)
+
+## 开场 CG · 下班，走这边
+
+三位同事等到了下班铃。电梯门一开，面前却是一座通往地府的桥。
+
+| 下班，走这边 | 下班铃响 · 通道开启 |
+| :--- | :--- |
+| [<img src="docs/gallery/cg-bridge.webp" width="440" alt="桥头字幕版动图节选：三位同事走出电梯，来到熔岩桥头">](https://github.com/huangxin-design/after-hours-hell-godot/releases/download/cg-20261119/AfterHoursHell-Bridge.mp4) | [<img src="docs/gallery/cg-bell.webp" width="440" alt="铃铛旁的熔岩桥通向一扇亮起的地府大门">](https://github.com/huangxin-design/after-hours-hell-godot/releases/download/cg-20261119/AfterHoursHell-Bell.mp4) |
+| [下载桥头字幕版 · 28 秒 MP4](https://github.com/huangxin-design/after-hours-hell-godot/releases/download/cg-20261119/AfterHoursHell-Bridge.mp4) | [下载通道短片 · 5 秒 MP4](https://github.com/huangxin-design/after-hours-hell-godot/releases/download/cg-20261119/AfterHoursHell-Bell.mp4) |
 
 ## 第一层的 19 件 3D 资产
 
@@ -114,6 +114,10 @@
 
 ## 特别鸣谢
 
-| <picture><source media="(prefers-color-scheme: dark)" srcset="docs/gallery/aholo-dark.png"><img src="docs/gallery/aholo-light.png" alt="群核 AHOLO" width="280"></picture> | <img src="docs/gallery/agibar.png" alt="AGI Bar 知识酒吧" width="248"> |
-| :---: | :---: |
-| 感谢群核提供 3D 算力支持 | 感谢 AGI Bar 提供模型算力支持 |
+<p align="center">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="docs/gallery/aholo-dark.png"><img src="docs/gallery/aholo-light.png" alt="群核 AHOLO" width="51%" align="middle"></picture>
+  &nbsp;
+  <img src="docs/gallery/agibar.png" alt="AGI Bar 知识蒸馏" width="43%" align="middle">
+</p>
+
+<p align="center">感谢群核提供 3D 算力支持　·　感谢 AGI Bar 提供模型算力支持</p>
