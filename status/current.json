@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "as_of": "2026-11-18",
-  "runtime_version": "v011",
+  "as_of": "2026-11-19",
+  "runtime_version": "v015",
   "engine": "Unreal Engine",
   "engine_version": "5.8.4",
   "platforms": [
@@ -12,8 +12,13 @@
     "椅哥",
     "小默"
   ],
-  "release_url": "https://github.com/huangxin-design/after-hours-hell-godot/releases/tag/v011",
+  "release_url": "https://github.com/huangxin-design/after-hours-hell-godot/releases/tag/v015",
   "production_record": {
+    "version": "v015",
+    "recorded_cases": 6,
+    "scope": "Three selected heroes, natural movie completion and Space skip into the level, across 720p window and 4K fullscreen."
+  },
+  "historical_v011_record": {
     "runs": 13,
     "test_cases": [
       "entry-720",

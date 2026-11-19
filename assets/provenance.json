@@ -1,7 +1,14 @@
 {
   "schema_version": 1,
   "as_of": "2026-11-06",
-  "policy": "The assets array describes the Godot prototype on 2026-11-06. For the Windows Unreal release and downloadable samples use v011_release and RIGHTS.md.",
+  "policy": "The assets array describes the Godot prototype on 2026-11-06. For subsequent public releases consult the versioned entries and RIGHTS.md.",
+  "v015_release": {
+    "source": "Project-authored C++ gameplay, AfterHoursUI plugin and resources, editable Level01 map and rules from the Windows v015 production project.",
+    "dependencies": "UE 5.8.4 and version-matched content as documented in docs/build-and-run.md and the source archive README.",
+    "media": "The Windows ZIP includes one opening and three hero skill films. Existing public art and CG downloads remain versioned separately.",
+    "downloads": "project.json",
+    "rights": "RIGHTS.md"
+  },
   "assets": [
     {
       "id": "guozai",

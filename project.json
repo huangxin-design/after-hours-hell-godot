@@ -80,6 +80,24 @@
   "remote_apis": [],
   "binary_downloads": [
     {
+      "name": "AfterHoursHell-Windows-v015.zip",
+      "url": "https://github.com/huangxin-design/after-hours-hell-godot/releases/download/v015/AfterHoursHell-Windows-v015.zip",
+      "bytes": 926501056,
+      "sha256": "867760b2b0ba9224eda3526b75d1568f9a0f49d12d5251d227e899023af4fc77"
+    },
+    {
+      "name": "AfterHoursHell-UE-Source-v015.zip",
+      "url": "https://github.com/huangxin-design/after-hours-hell-godot/releases/download/v015/AfterHoursHell-UE-Source-v015.zip",
+      "bytes": 38811435,
+      "sha256": "68aca8dd25136196a0f0b654a4c9c3c1c03f0a59a1004c46f2f84863de1d687e"
+    },
+    {
+      "name": "SHA256SUMS.txt",
+      "url": "https://github.com/huangxin-design/after-hours-hell-godot/releases/download/v015/SHA256SUMS.txt",
+      "bytes": 198,
+      "sha256": "e353d3460cc097a8ad0cc77c8d0f177780e7d6765999887029a58e0befa72ee4"
+    },
+    {
       "name": "AfterHoursHell-Windows-v011.zip",
       "url": "https://github.com/huangxin-design/after-hours-hell-godot/releases/download/v011/AfterHoursHell-Windows-v011.zip",
       "bytes": 852595689,

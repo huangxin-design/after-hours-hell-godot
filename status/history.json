@@ -25,6 +25,13 @@
       "version": "art-20261119",
       "devlog": "devlog/2026-11-19.md",
       "summary": "19 paired models and renders, character and prop turnarounds, and game UI designs."
+    },
+    {
+      "date": "2026-11-19",
+      "version": "v015",
+      "kind": "release",
+      "devlog": "devlog/v015.md",
+      "summary": "Final Windows demo with the opening and three selected-hero films, corresponding Unreal project source and SHA-256 checksums."
     }
   ]
 }

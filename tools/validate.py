@@ -52,6 +52,9 @@ REVIEWED_PREVIEWS = {
 }
 RELEASE_BASE = 'https://github.com/huangxin-design/after-hours-hell-godot/releases/download/'
 REVIEWED_DOWNLOADS = {
+    ('v015', 'AfterHoursHell-Windows-v015.zip'): (926501056, '867760b2b0ba9224eda3526b75d1568f9a0f49d12d5251d227e899023af4fc77'),
+    ('v015', 'AfterHoursHell-UE-Source-v015.zip'): (38811435, '68aca8dd25136196a0f0b654a4c9c3c1c03f0a59a1004c46f2f84863de1d687e'),
+    ('v015', 'SHA256SUMS.txt'): (198, 'e353d3460cc097a8ad0cc77c8d0f177780e7d6765999887029a58e0befa72ee4'),
     ('v011', 'AfterHoursHell-Windows-v011.zip'): (852595689, 'bb1ab8cc17306e36b33157f5a66df81390e57d86a6477936b06630cadcba0f8f'),
     ('v011', 'AfterHoursHell-Models-v011.zip'): (41869007, '1ba08fe77867069413d42285dd5e8ebc3ee312485c4e0ddb7ab91225c43cd4f5'),
     ('art-20261119', 'AfterHoursHell-3D-Gallery.zip'): (106740003, '1be5ad07e21b9902e70fb7d45ec377a5613c00050d617f50b0f5ce193a98b1be'),
@@ -66,6 +69,7 @@ REVIEWED_DOWNLOADS = {
 FILES = (
     "skills/ai-3d-game-qa/SKILL.md", "skills/ai-3d-game-qa/references/after-hours-case.md",
     "devlog/2026-11-19.md",
+    "devlog/v015.md",
     "docs/creator-notes.md", "devlog/2026-11-18.md", "status/godot-20261106.json",
     ".gitignore", "AGENTS.md", "README.md", "RIGHTS.md", "project.json",
     "docs/architecture.md", "docs/build-and-run.md", "docs/for-ai.md", "docs/updating.md",

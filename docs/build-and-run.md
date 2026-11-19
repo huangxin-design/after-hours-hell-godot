@@ -1,8 +1,14 @@
 # 构建与运行 / Build and run
 
-## Windows v011 试玩
+## Windows v015 试玩
 
-从[版本下载页](https://github.com/huangxin-design/after-hours-hell-godot/releases/tag/v011)取 Windows ZIP，完整解压。双击根目录的 `窗口试玩 1280x720.cmd` 或 `4K 全屏试玩.cmd`。两个入口使用同一套游戏文件。
+从[版本下载页](https://github.com/huangxin-design/after-hours-hell-godot/releases/tag/v015)取 Windows ZIP，完整解压。双击根目录的 `窗口试玩 1280x720.cmd` 以 720p 窗口游玩，或双击 `4K 全屏试玩.cmd` 以 3840 × 2160 全屏游玩。两个入口使用同一套游戏文件。故事开场和选人后的对应技能片均支持空格跳过。
+
+## 阅读 v015 工程源码
+
+解压 [UE 源码包](https://github.com/huangxin-design/after-hours-hell-godot/releases/download/v015/AfterHoursHell-UE-Source-v015.zip)，从 `AfterHoursHell.uproject` 进入。工程使用 Unreal Engine 5.8.4。游戏逻辑在 `Source/AfterHoursHell/`，选人、影片跳过和问答界面在 `Plugins/AfterHoursUI/`，机关参数和题库在 `Content/Rules/`。包内附有第一层地图、UI 图像、字体及许可文件。
+
+重建完整关卡还需要匹配版本的 UE 模型、动画、材质、声音和标题字体。包内 README 列出对应路径，四部原片可从 Windows ZIP 的 `AfterHoursHell/Content/Movies/AfterHoursUI/` 复制到工程对应目录。[下载两个 ZIP 的校验清单](https://github.com/huangxin-design/after-hours-hell-godot/releases/download/v015/SHA256SUMS.txt)
 
 ## Godot 原型的规则示例
 

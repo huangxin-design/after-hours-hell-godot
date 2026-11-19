@@ -4,7 +4,9 @@
 
 这是黄花鱼 AIGC 为 Aholo 黑客松制作的单人 3D 闯关游戏。选锅仔，用铁锅把来袭的飞锅弹回去；选椅哥，放低椅背从锅底下滑过；选小默，让替身吸引火力，自己绕过去。三位同事走同一条下班路，各有各的活法。
 
-**[下载 Windows 试玩包 · v011（853 MB）](https://github.com/huangxin-design/after-hours-hell-godot/releases/download/v011/AfterHoursHell-Windows-v011.zip)**　·　[下载游戏宣传片](https://github.com/huangxin-design/after-hours-hell-godot/releases/download/trailer-20261119/AfterHoursHell-Gameplay-Trailer.mp4)　·　[浏览 3D 游戏资产](#第一层的-19-件-3d-资产)　·　[AI 游戏开发复盘与原创 Skill](#项目组原创-skill)
+**[下载 Windows 最终试玩版 · v015（927 MB）](https://github.com/huangxin-design/after-hours-hell-godot/releases/download/v015/AfterHoursHell-Windows-v015.zip)**　·　[下载对应 UE 工程源码（39 MB）](https://github.com/huangxin-design/after-hours-hell-godot/releases/download/v015/AfterHoursHell-UE-Source-v015.zip)　·　[核对 SHA-256](https://github.com/huangxin-design/after-hours-hell-godot/releases/download/v015/SHA256SUMS.txt)
+
+[下载游戏宣传片](https://github.com/huangxin-design/after-hours-hell-godot/releases/download/trailer-20261119/AfterHoursHell-Gameplay-Trailer.mp4)　·　[浏览 3D 游戏资产](#第一层的-19-件-3d-资产)　·　[AI 游戏开发复盘与原创 Skill](#项目组原创-skill)
 
 ## 开场 CG · 下班，走这边
 
@@ -27,9 +29,11 @@
 | :--- | :--- | :--- |
 | ![锅仔的选角界面与举锅反弹技能介绍](docs/gallery/game-select.webp) | ![锅仔走到熔岩关卡的凭证台，远处是油锅炉](docs/gallery/game-floor.webp) | ![角色面对返程桥上连续扫过的两道闸杆](docs/gallery/game-gate.webp) |
 
-*这三张截图来自 Unreal Engine 的 v012 开发版。当前公开试玩为 v011。*
+*这三张截图记录的是 Unreal Engine v012 开发版。*
 
-**怎么玩**　完整解压试玩包后，双击 `窗口试玩 1280x720.cmd` 或 `4K 全屏试玩.cmd`。WASD 移动，鼠标转视角，空格跳跃，F 使用角色技能，E 与场景互动。
+**怎么玩**　完整解压 v015 后，双击根目录的 `窗口试玩 1280x720.cmd` 或 `4K 全屏试玩.cmd`。先看故事开场，选好角色点「出发」就会播放这位同事的技能片。两处都可以按空格跳过。进入关卡后，WASD 移动，鼠标转视角，空格跳跃，F 使用技能，E 互动。
+
+**想看怎么做的？** 源码包内有游戏 C++ 模块、自有 UI 插件、第一层地图和玩法规则。重建完整画面还需要配套模型、动画、材质和音频。[查看源码目录与素材依赖](docs/build-and-run.md)
 
 ## 第一层的 19 件 3D 资产
 

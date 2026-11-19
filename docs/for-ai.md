@@ -3,7 +3,7 @@
 1. Read `project.json` for delivered reusable contents, Skill status, the index and real local commands.
 2. Read `status/current.json` for the version, playable characters and acceptance limits.
 3. Read `assets/provenance.json` before assuming that an asset is downloadable or reusable.
-4. Inspect `examples/godot-rules/source-manifest.json` and its listed files for logic work.
+4. For the v015 gameplay and UI source, use the UE source ZIP in `project.json`. For the historical Godot rules example, inspect `examples/godot-rules/source-manifest.json`.
 5. Run `python tools/validate.py`; optionally run the documented Godot command.
 
 Every command is local. There is no hosted game API, model-generation endpoint,

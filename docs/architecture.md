@@ -1,6 +1,6 @@
 # 制作链与规则接口
 
-可见模型由群核 Aholo Lux3D 生成，再在 Blender 中修整形体、材质与动作。Windows v011 由 Unreal Engine 接入角色、关卡和 UI。玩家可以选择锅仔、椅哥或小默。
+可见模型由群核 Aholo Lux3D 生成，再在 Blender 中修整形体、材质与动作。Windows v015 由 Unreal Engine 接入角色、关卡和 UI。玩家可以选择锅仔、椅哥或小默。
 
 下文保留早期 Godot 原型的规则接口。它记录了固定斜俯视时期锅仔和小默怎样与机关交互，便于复用规则与测试数据。
 
