@@ -110,6 +110,6 @@
 
 ## 特别鸣谢
 
-| <picture><source media="(prefers-color-scheme: dark)" srcset="docs/gallery/aholo-dark.png"><img src="docs/gallery/aholo-light.png" alt="群核 AHOLO" width="163"></picture> | <img src="docs/gallery/agibar.png" alt="AGI Bar 知识酒吧" width="152"> |
+| <picture><source media="(prefers-color-scheme: dark)" srcset="docs/gallery/aholo-dark.png"><img src="docs/gallery/aholo-light.png" alt="群核 AHOLO" width="280"></picture> | <img src="docs/gallery/agibar.png" alt="AGI Bar 知识酒吧" width="248"> |
 | :---: | :---: |
 | 感谢群核提供 3D 算力支持 | 感谢 AGI Bar 提供模型算力支持 |
