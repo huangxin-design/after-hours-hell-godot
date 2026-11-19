@@ -1,6 +1,6 @@
 {
   "status": "passed",
-  "scope": "Public v011 repository export, package CRC and SHA-256; earlier runtime checks reported separately.",
+  "scope": "Public repository gallery, reviewed images, internal links and art release attachments. Game runtime verification is versioned separately.",
   "historical_godot_check": {
     "date": "2026-11-06",
     "version": "4.7.2.stable.official.ed1daf0bf",
@@ -11,9 +11,9 @@
   },
   "checked_on": "2026-11-19",
   "public_tree_checks": {
-    "reviewed_files": 48,
-    "reviewed_images": 20,
-    "relative_links": 42,
+    "reviewed_files": 63,
+    "reviewed_images": 34,
+    "relative_links": 49,
     "guard_cases": 9
   },
   "attachments_checked": [

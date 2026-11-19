@@ -1,37 +1,77 @@
-![地狱也得下班。锅仔举着铁锅奔向出口，椅哥和小默跟在身后。](docs/images/after-hours.webp)
+# 地狱也得下班
 
-# 地狱也得下班 · After Hours in Hell
+17:59，电梯门开了。门外是一座熔岩地府：加急文件从打印机里飞出来，审批章砸在必经的桥上，出口还等着最后一次打卡。
 
-17:59，电梯门开了。办公室通向一座熔岩地府。打印机吐出加急文件，印章砸在必经的桥上。选一位同事，拿到凭证，想办法准点下班。
+这是黄花鱼 AIGC 为 Aholo 黑客松制作的单人 3D 闯关游戏。选锅仔，用铁锅把来袭的飞锅弹回去；选椅哥，放低椅背从锅底下滑过；选小默，让替身吸引火力，自己绕过去。三位同事走同一条下班路，各有各的活法。
 
-**[下载 Windows 试玩版 v011](https://github.com/huangxin-design/after-hours-hell-godot/releases/download/v011/AfterHoursHell-Windows-v011.zip)**　·　[下载模型与打印文件](https://github.com/huangxin-design/after-hours-hell-godot/releases/download/v011/AfterHoursHell-Models-v011.zip)　·　[阅读制作手记](docs/creator-notes.md)
+## 游戏截图
 
-## 先玩一关
+![锅仔走到熔岩关卡的凭证台，远处是油锅炉](docs/gallery/game-floor.webp)
 
-**锅仔**能把飞锅弹回去，**椅哥**能放低椅背从下面穿过，**小默**能让替身留在原地吸引攻击。同一道机关，换一个人，就得换一个出手时机。
+| 选一位下班搭子 | 穿过返程打卡闸 |
+| :--- | :--- |
+| ![锅仔的选角界面与举锅反弹技能介绍](docs/gallery/game-select.webp) | ![角色面对返程桥上连续扫过的两道闸杆](docs/gallery/game-gate.webp) |
 
-下载后完整解压 ZIP，双击根目录的 `窗口试玩 1280x720.cmd`，或选择 `4K 全屏试玩.cmd`。用 WASD 移动、鼠标转动视角、空格跳跃、F 释放角色技能、E 与场景互动。[版本说明与文件校验值](https://github.com/huangxin-design/after-hours-hell-godot/releases/tag/v011)
+*以上为 Unreal Engine 的 v012 开发版实机截图。当前公开试玩为 v011。*
 
-![Windows v011 实机画面。锅仔站在桥面上，金边熔炉和出口门架位于身后。](docs/images/furnace-v011.webp)
+**[下载 Windows 试玩包 · v011（853 MB）](https://github.com/huangxin-design/after-hours-hell-godot/releases/download/v011/AfterHoursHell-Windows-v011.zip)**
 
-*第一层「油锅地狱」 · Unreal Engine 5.8.4 · Windows v011 实机画面*
+完整解压后，双击 `窗口试玩 1280x720.cmd` 或 `4K 全屏试玩.cmd`。WASD 移动，鼠标转视角，空格跳跃，F 使用角色技能，E 与场景互动。
 
-## 从群核白模到游戏资产
+## 3D 资产图录
 
-同一杯下班奶茶，在关卡里能绕着看，在界面里只有几十个像素大。我们保留斜吸管、宽杯盖和爱心杯标，让玩家在领取备用生命的瞬间也能认出它。
+制作第一层时，我们用群核 Lux3D 生成了 25 份角色、建筑与道具底模。这里收录 19 种造型，包括早期试作的审批印章。下载包里的 GLB 和下面的白模渲染来自同一份 Blender 修整稿。
 
-[![奶茶的三种形态。左为群核白模，中间是玉绿色图标，右边是备用生命领取回执。](docs/images/milk-tea.webp)](docs/creator-notes.md#一杯奶茶怎样在两个地方都认得出)
+### 三位同事
 
-| 想看什么 | 从这里开始 |
-| --- | --- |
-| 从提示词到可用的道具 | [催命打印机：三视图、Blender 修整、拆分飞行纸包](docs/lux3d/deadline-printer.md) |
-| 从静态角色到能读懂的技能 | [锅仔的手掌、椅哥的椅背和小默的替身](docs/lux3d/characters.md) |
-| 从游戏角色到桌面摆件 | [三名角色的 150 mm 打印文件与试打说明](docs/creator-notes.md#通关用过的角色怎样留在桌上) |
+![锅仔、小默和椅哥的独立角色模型](docs/gallery/models-cast.webp)
 
-## 开发者入口
+### 搭起第一层的四件建筑
 
-游戏从 Godot 原型发展到 Unreal Engine。仓库保留了早期原型的一段可运行规则示例，完整 Windows 试玩包和可下载模型按版本放在 Releases。
+![熔岩桥面、地形块、护栏、出口门](docs/gallery/models-architecture.webp)
 
-[Godot 规则示例](examples/godot-rules/) · [构建与版本说明](docs/build-and-run.md) · [机器可读索引](project.json) · [素材使用范围](RIGHTS.md) · [制作回忆册](https://after-hours-18-progress.meoworangecat.chatgpt.site/#memories)
+![组合关卡左右对照，左为桥面与高低台的白模，右为熔岩与岩壁的配色效果图](docs/gallery/level-study.webp)
 
-黄花鱼 AIGC 制作 · Aholo 黑客松参赛作品
+### 十二件随身装备、机关与办公道具
+
+![椅哥座椅、手持铁锅、油锅炉、落印机关、油锅发射器、飞锅弹丸](docs/gallery/models-mechanisms.webp)
+
+![催命打印机、加急文件推车、加班打卡闸、控制台、奶茶、审批印章](docs/gallery/models-office.webp)
+
+**[下载 19 件 3D 资产 · GLB 模型与渲染原图（107 MB）](https://github.com/huangxin-design/after-hours-hell-godot/releases/download/art-20261119/AfterHoursHell-3D-Gallery.zip)**
+
+每件附中文名称、生成任务号和对应的 PNG。另收录两张关卡组合图。
+
+[下载三位角色的 150 mm 打印文件及奶茶游戏模型（42 MB）](https://github.com/huangxin-design/after-hours-hell-godot/releases/download/v011/AfterHoursHell-Models-v011.zip) · 内含 STL、3MF 和逐件试打说明。
+
+## 人物、道具与游戏 UI 设定
+
+### 人物怎样从不同角度被认出来
+
+锅仔背着双肩包，小默胸前挂着工牌，椅哥的发梢总是向上翘。画正面、侧面与背面时，我们把这些小细节留在了同一个位置。
+
+![三位角色的设定稿，每人展示正面、侧面与背面](docs/gallery/character-designs.webp)
+
+### 道具的轮廓怎样提示玩法
+
+看到打印机的出纸口，就知道文件会从哪里飞出来；看到打卡闸的长杆，就知道要等它扫过再走。三视图先把这些方向画清楚，再交给建模。
+
+![催命打印机、加急文件推车和加班打卡闸的三视图设计](docs/gallery/prop-designs.webp)
+
+### 让菜单也像地府办公室的文件
+
+按下暂停，眼前是一块夹着纸页的办公夹板。领到奶茶，出现的是盖过章的回执，杯盖和吸管的轮廓沿用了关卡里的 3D 模型。
+
+![游戏 UI 设定，左为暂停菜单，右为带奶茶图标的备用生命领取回执](docs/gallery/interface-designs.webp)
+
+**[下载美术设定集 · 人物、道具与游戏 UI（50 MB）](https://github.com/huangxin-design/after-hours-hell-godot/releases/download/art-20261119/AfterHoursHell-Design-Kit.zip)**
+
+3 份人物三视图、4 份道具三视图、8 张界面设定和 12 枚透明 PNG 图标。
+
+[读创作者手记](docs/creator-notes.md) · [看催命打印机的制作过程](docs/lux3d/deadline-printer.md) · [看三位角色的动作绑定](docs/lux3d/characters.md) · [素材使用说明](RIGHTS.md)
+
+## 特别鸣谢
+
+| <picture><source media="(prefers-color-scheme: dark)" srcset="docs/gallery/aholo-dark.png"><img src="docs/gallery/aholo-light.png" alt="群核 AHOLO" width="163"></picture> | <img src="docs/gallery/agibar.png" alt="AGI Bar 知识酒吧" width="152"> |
+| :---: | :---: |
+| 感谢群核提供 3D 算力支持 | 感谢 AGI Bar 提供模型算力支持 |

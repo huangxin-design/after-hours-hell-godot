@@ -7,6 +7,20 @@ import re
 
 ROOT = Path(__file__).resolve().parents[1]
 REVIEWED_PREVIEWS = {
+    "docs/gallery/agibar.png": "a28f449a295f2c89edd931a7737d1e48c79d9a744cf7cbd0bd5f6c069fc4049c",
+    "docs/gallery/aholo-dark.png": "58f0967840013979cbb966d50b5f8e618c14d295fc0a7c65459ea0b77207f2e6",
+    "docs/gallery/aholo-light.png": "689305097bbf4c6b0fdcd5d2129d1c51ace635e3e3fbd2cfcbe2117b2be99155",
+    "docs/gallery/character-designs.webp": "74fa3497278c2a9ebb6de15c04bfaa9c1bcc130c32ae31546b064331d8e3731b",
+    "docs/gallery/game-floor.webp": "eec524a6555e60483cd3b5ec984c1d3dea0c075da2c866243d95bbd9c3463285",
+    "docs/gallery/game-gate.webp": "98a1d775578b6d47893faba58f8a80ebd401ee99cac1c8041da7681e42e989ef",
+    "docs/gallery/game-select.webp": "77de224879ad7600c80748ae29e92ea654d567be78f7764d52906b728f621e44",
+    "docs/gallery/interface-designs.webp": "4bd97fa8b5b1a49803aebbb244e9834559ad1a1b6f22de3b9de3c1674a33b9d5",
+    "docs/gallery/level-study.webp": "2627a6a2a1512ab5e47c033df81f553f43eb03bfb35e4bac12f80b3b0a41a895",
+    "docs/gallery/models-architecture.webp": "d3a671942dc63aba127176439313f32c493de6c028ca3219ff6e93ed38f3df2d",
+    "docs/gallery/models-cast.webp": "af594d53e978dc22c54126dad7d071f0d8d93e39caa1640fcf3f1eed22929afe",
+    "docs/gallery/models-mechanisms.webp": "dfb717c2f76c58579569a017baffaf3237ecf09dc7e4307d2a935bcd9edd5972",
+    "docs/gallery/models-office.webp": "88ea85a16282584490d40a8e25dc956e61eebf025a3b37cabb29d1e042f757e0",
+    "docs/gallery/prop-designs.webp": "012ff46a7b92e759ddef99b0e6b07af2c392c4eba57867a8e23be2eb0521fb15",
     "docs/images/after-hours.webp": "db51425353e8c11e303f71d834c4073dcbc241b187ade91a69f031bd56574298",
     "docs/images/furnace-v011.webp": "e5683ba2ede7c43b733989056aa3127dbd709c395f7935c43acc31f953f5173c",
     "docs/images/guozai-print-study.webp": "ecaf06034b3228f072ac494fca76238070d2c0ac11544b9915c9f47aac6d0e21",
@@ -28,12 +42,15 @@ REVIEWED_PREVIEWS = {
     "docs/lux3d/images/yige-flat.webp": "697faa95e5f1ea53ac99c00f275f7a94dc7bdd272bac2dc642ba6f5e4e162d9c",
     "docs/lux3d/images/xiaomo-decoy.webp": "fcfbc6bcb869000a04d34d3ef52e711779541cf84afb45b1554d61cb6551b3f6",
 }
-RELEASE_BASE = 'https://github.com/huangxin-design/after-hours-hell-godot/releases/download/v011/'
+RELEASE_BASE = 'https://github.com/huangxin-design/after-hours-hell-godot/releases/download/'
 REVIEWED_DOWNLOADS = {
-    'AfterHoursHell-Windows-v011.zip': (852595689, 'bb1ab8cc17306e36b33157f5a66df81390e57d86a6477936b06630cadcba0f8f'),
-    'AfterHoursHell-Models-v011.zip': (41869007, '1ba08fe77867069413d42285dd5e8ebc3ee312485c4e0ddb7ab91225c43cd4f5'),
+    ('v011', 'AfterHoursHell-Windows-v011.zip'): (852595689, 'bb1ab8cc17306e36b33157f5a66df81390e57d86a6477936b06630cadcba0f8f'),
+    ('v011', 'AfterHoursHell-Models-v011.zip'): (41869007, '1ba08fe77867069413d42285dd5e8ebc3ee312485c4e0ddb7ab91225c43cd4f5'),
+    ('art-20261119', 'AfterHoursHell-3D-Gallery.zip'): (106740003, '1be5ad07e21b9902e70fb7d45ec377a5613c00050d617f50b0f5ce193a98b1be'),
+    ('art-20261119', 'AfterHoursHell-Design-Kit.zip'): (49871460, '07d5b94456eae80db137a7d96a8318e2f8d448b9b51b2e80a90b38dfe3ea5b15'),
 }
 FILES = (
+    "devlog/2026-11-19.md",
     "docs/creator-notes.md", "devlog/2026-11-18.md", "status/godot-20261106.json",
     ".gitignore", "AGENTS.md", "README.md", "RIGHTS.md", "project.json",
     "docs/architecture.md", "docs/build-and-run.md", "docs/for-ai.md", "docs/updating.md",
@@ -100,8 +117,8 @@ def validate(root=ROOT):
     if project["remote_apis"]:
         raise ValueError("Remote services require a new review")
     downloads = [
-        {"name": name, "url": RELEASE_BASE + name, "bytes": size, "sha256": checksum}
-        for name, (size, checksum) in REVIEWED_DOWNLOADS.items()
+        {"name": name, "url": RELEASE_BASE + tag + "/" + name, "bytes": size, "sha256": checksum}
+        for (tag, name), (size, checksum) in REVIEWED_DOWNLOADS.items()
     ]
     if project["binary_downloads"] != downloads:
         raise ValueError("Release attachment manifest differs from reviewed files")

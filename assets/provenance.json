@@ -75,5 +75,15 @@
     "milk_tea": "Aholo Lux3D task 6426248, Blender game mesh, companion UI icon",
     "usage": "RIGHTS.md",
     "downloads": "project.json"
+  },
+  "art_20261119": {
+    "models": "19 static GLB display meshes from the reviewed Blender sheets, 19 paired renders and two level studies",
+    "design_kit": "3 character sheets, 4 prop sheets, 8 UI design screens, 12 transparent icons",
+    "screenshots": "Windows v012 development capture",
+    "acknowledgements": {
+      "群核": "3D 算力支持",
+      "AGI Bar": "模型算力支持"
+    },
+    "rights": "RIGHTS.md"
   }
 }

@@ -84,6 +84,18 @@
       "url": "https://github.com/huangxin-design/after-hours-hell-godot/releases/download/v011/AfterHoursHell-Models-v011.zip",
       "bytes": 41869007,
       "sha256": "1ba08fe77867069413d42285dd5e8ebc3ee312485c4e0ddb7ab91225c43cd4f5"
+    },
+    {
+      "name": "AfterHoursHell-3D-Gallery.zip",
+      "url": "https://github.com/huangxin-design/after-hours-hell-godot/releases/download/art-20261119/AfterHoursHell-3D-Gallery.zip",
+      "bytes": 106740003,
+      "sha256": "1be5ad07e21b9902e70fb7d45ec377a5613c00050d617f50b0f5ce193a98b1be"
+    },
+    {
+      "name": "AfterHoursHell-Design-Kit.zip",
+      "url": "https://github.com/huangxin-design/after-hours-hell-godot/releases/download/art-20261119/AfterHoursHell-Design-Kit.zip",
+      "bytes": 49871460,
+      "sha256": "07d5b94456eae80db137a7d96a8318e2f8d448b9b51b2e80a90b38dfe3ea5b15"
     }
   ],
   "license": "See RIGHTS.md; no blanket license",
