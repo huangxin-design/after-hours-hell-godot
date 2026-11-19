@@ -1,12 +1,12 @@
 # 地狱也得下班
 
-17:59，电梯门开了。门外是一座熔岩地府：加急文件从打印机里飞出来，审批章砸在必经的桥上，出口还等着最后一次打卡。
+**17:59，电梯门开了。** 门外是一座熔岩地府。加急文件从打印机里飞出来，审批章砸在必经的桥上，出口还等着最后一次打卡。
 
 这是黄花鱼 AIGC 为 Aholo 黑客松制作的单人 3D 闯关游戏。选锅仔，用铁锅把来袭的飞锅弹回去；选椅哥，放低椅背从锅底下滑过；选小默，让替身吸引火力，自己绕过去。三位同事走同一条下班路，各有各的活法。
 
-想了解 **AI 游戏开发**（AI-assisted game development）和 **3D 游戏制作**（3D game development），这里也有一条实际工作流。群核 Lux3D 生成底模，Blender 修整资产，Unreal Engine 接入玩法。仓库保留了早期 Godot 规则原型。
+**[下载 Windows 试玩包 · v011（853 MB）](https://github.com/huangxin-design/after-hours-hell-godot/releases/download/v011/AfterHoursHell-Windows-v011.zip)**　·　[浏览 3D 游戏资产](#第一层的-19-件-3d-资产)　·　[AI 游戏开发复盘与原创 Skill](#项目组原创-skill)
 
-## 游戏截图
+## 试玩第一层「油锅地狱」
 
 ![锅仔走到熔岩关卡的凭证台，远处是油锅炉](docs/gallery/game-floor.webp)
 
@@ -16,25 +16,23 @@
 
 *以上为 Unreal Engine 的 v012 开发版实机截图。当前公开试玩为 v011。*
 
-**[下载 Windows 试玩包 · v011（853 MB）](https://github.com/huangxin-design/after-hours-hell-godot/releases/download/v011/AfterHoursHell-Windows-v011.zip)**
+**怎么玩**　完整解压试玩包后，双击 `窗口试玩 1280x720.cmd` 或 `4K 全屏试玩.cmd`。WASD 移动，鼠标转视角，空格跳跃，F 使用角色技能，E 与场景互动。
 
-完整解压后，双击 `窗口试玩 1280x720.cmd` 或 `4K 全屏试玩.cmd`。WASD 移动，鼠标转视角，空格跳跃，F 使用角色技能，E 与场景互动。
+## 第一层的 19 件 3D 资产
 
-## 3D 资产图录
+我们用群核 Lux3D 为第一层生成了 25 份底模，在 Blender 中修整，再把角色、建筑和道具接入 Unreal Engine。下面收录 19 种造型，包括早期试作的审批印章。下载包里的 GLB 和白模渲染来自同一份修整稿。
 
-制作第一层时，我们用群核 Lux3D 生成了 25 份角色、建筑与道具底模。这里收录 19 种造型，包括早期试作的审批印章。下载包里的 GLB 和下面的白模渲染来自同一份 Blender 修整稿。
-
-### 三位同事
+### 人物 · 三位下班搭子
 
 ![锅仔、小默和椅哥的独立角色模型](docs/gallery/models-cast.webp)
 
-### 搭起第一层的四件建筑
+### 场景 · 用四种构件拼出关卡
 
 ![熔岩桥面、地形块、护栏、出口门](docs/gallery/models-architecture.webp)
 
 ![组合关卡左右对照，左为桥面与高低台的白模，右为熔岩与岩壁的配色效果图](docs/gallery/level-study.webp)
 
-### 十二件随身装备、机关与办公道具
+### 道具 · 十二件装备与办公室机关
 
 ![椅哥座椅、手持铁锅、油锅炉、落印机关、油锅发射器、飞锅弹丸](docs/gallery/models-mechanisms.webp)
 
@@ -42,25 +40,23 @@
 
 **[下载 19 件 3D 资产 · GLB 模型与渲染原图（107 MB）](https://github.com/huangxin-design/after-hours-hell-godot/releases/download/art-20261119/AfterHoursHell-3D-Gallery.zip)**
 
-每件附中文名称、生成任务号和对应的 PNG。另收录两张关卡组合图。
+每件附中文名称、生成任务号和对应的 PNG。另收录两张关卡组合图。早期的 [Godot 规则原型](examples/godot-rules/)也保存在仓库里。
 
-[下载三位角色的 150 mm 打印文件及奶茶游戏模型（42 MB）](https://github.com/huangxin-design/after-hours-hell-godot/releases/download/v011/AfterHoursHell-Models-v011.zip) · 内含 STL、3MF 和逐件试打说明。
+## 美术设定 · 角色、机关与游戏 UI
 
-## 人物、道具与游戏 UI 设定
-
-### 人物怎样从不同角度被认出来
+### 角色三视图 · 转过身也认得出
 
 锅仔背着双肩包，小默胸前挂着工牌，椅哥的发梢总是向上翘。画正面、侧面与背面时，我们把这些小细节留在了同一个位置。
 
 ![三位角色的设定稿，每人展示正面、侧面与背面](docs/gallery/character-designs.webp)
 
-### 道具的轮廓怎样提示玩法
+### 机关三视图 · 出纸口和闸杆指向哪里
 
 看到打印机的出纸口，就知道文件会从哪里飞出来；看到打卡闸的长杆，就知道要等它扫过再走。三视图先把这些方向画清楚，再交给建模。
 
 ![催命打印机、加急文件推车和加班打卡闸的三视图设计](docs/gallery/prop-designs.webp)
 
-### 让菜单也像地府办公室的文件
+### 游戏 UI · 暂停用夹板，领奖用回执
 
 按下暂停，眼前是一块夹着纸页的办公夹板。领到奶茶，出现的是盖过章的回执，杯盖和吸管的轮廓沿用了关卡里的 3D 模型。
 
@@ -70,14 +66,28 @@
 
 3 份人物三视图、4 份道具三视图、8 张界面设定和 12 枚透明 PNG 图标。
 
-[读创作者手记](docs/creator-notes.md) · [看催命打印机的制作过程](docs/lux3d/deadline-printer.md) · [看三位角色的动作绑定](docs/lux3d/characters.md) · [素材使用说明](RIGHTS.md)
+## 把下班搭子放上书桌
 
-## 开发踩坑复盘与 Codex Skill
+锅仔在游戏里要握得住锅柄，做成摆件后，还得靠脚底和底座站稳。我们给锅仔、椅哥和小默分别做了 150 mm 的打印模型。
 
-选角卡片只在第一帧闪、椅哥一后仰就离开椅背、机关能单独运行却走不完整关。我们把这些容易漏掉的检查整理成一份 Skill，能按现象找到对应的检查点、复现步骤和验收证据。
+<img src="docs/images/guozai-print-study.webp" alt="锅仔摆件的数字陈列效果，身后是游戏画面和包装概念" width="560">
 
-- [读《地狱也得下班》开发踩坑复盘](skills/ai-3d-game-qa/references/after-hours-case.md)
-- [查看 AI 3D 游戏接入排查 Skill](skills/ai-3d-game-qa/SKILL.md)。将 `ai-3d-game-qa` 目录放到 Codex 的 Skills 目录后，可用 `$ai-3d-game-qa` 调用。
+*锅仔的 Blender 虚拟陈列。包装为概念稿，实体效果待试打。*
+
+[下载三位角色的 STL、3MF 和逐件试打说明（42 MB，附奶茶 GLB）](https://github.com/huangxin-design/after-hours-hell-godot/releases/download/v011/AfterHoursHell-Models-v011.zip) · [读创作者手记](docs/creator-notes.md) · [素材使用说明](RIGHTS.md)
+
+## 项目组原创 Skill
+
+**这份 Codex Skill 是我们根据开发《地狱也得下班》时踩过的坑，自己整理编写的。** 我们把当时如何复现问题、该看哪一帧、怎样确认修好都写了下来，供其他 3D 游戏开发者复用。
+
+| 椅哥躺平时，椅背接住身体了吗？ | 文件从打印机的哪个位置飞出来？ |
+| :--- | :--- |
+| [![椅哥选角动作连续取样，从坐姿后仰再回正](docs/lux3d/images/yige-select.webp)](docs/lux3d/characters.md) | [![坡顶的催命打印机，托盘前沿和桥面上的通行位置清晰可见](docs/lux3d/images/printer-detail.webp)](docs/lux3d/deadline-printer.md) |
+| **看动作过渡。** 顺着侧面的连续帧，检查身体何时贴上椅背、何时离开。[角色绑定记录](docs/lux3d/characters.md) | **看出纸位置。** 机身和纸包分开导出，对照托盘开口检查文件的起点和方向。[打印机制作记录](docs/lux3d/deadline-printer.md) |
+
+[阅读五个开发踩坑案例](skills/ai-3d-game-qa/references/after-hours-case.md) · **[查看项目组原创 Skill · AI 3D 游戏接入排查](skills/ai-3d-game-qa/SKILL.md)**
+
+将 `ai-3d-game-qa` 目录放入 Codex 的 Skills 目录后，可用 `$ai-3d-game-qa` 调用。
 
 ## 特别鸣谢
 
